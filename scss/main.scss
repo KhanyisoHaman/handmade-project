@@ -1,0 +1,9 @@
+// Main SCSS FILE It imports all of the styles from my partials and meshes it together
+
+@import "partials/variable",
+        "partials/mixins",
+        "partials/base",
+        "partials/style-extent",
+        "partials/components",
+        "partials/layouts",
+        "partials/responsive-design";
