@@ -1,0 +1,56 @@
+// Grids
+
+
+
+// Start: Featured Products
+
+.featured-grids {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns:repeat(3,auto);
+
+    padding: 20px 50px;
+}
+
+// End: Featured Products   
+
+// Start: New Collection
+
+.collection-grids {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns:repeat(2,auto);
+
+    padding: 20px 70px;
+}
+
+// End: New Collection
+
+// Start: Our Blog
+
+.blog-grid {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns:repeat(2,auto);
+
+    padding: 20px 70px;
+}
+// End: Our Blog
+
+// Start: Footer
+
+.footer {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4,1fr);
+
+    padding: 20px 64px;
+}
+
+.footer-grid {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(4,auto);
+}
+
+// End: Footer
