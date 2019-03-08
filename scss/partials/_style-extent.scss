@@ -1,5 +1,8 @@
 // Classes & ID's
 
+
+// Start: Header
+
 // NAVIGATION UPPER
 
 .navigation-upper {
@@ -35,17 +38,73 @@
 
 // Bottom Navigation Bar
 
+.logo {
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 9px;
+    color: #fffefe;
+}
+
 .navigation-bottom {
     margin-top: 20px;
     text-align: center;
     font-family: 'Dosis', sans-serif;
+    font-size: 15px;
 
     li {
         padding: 0 20px;
     }
 
     a {
-        color: black;
-        font-size: 15px;
+        color: white;
     }
 }
+
+.button {
+    font-family: 'Source Sans Pro', sans-serif;
+    border-radius: 20px;
+    background-color: #a88d7b;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    margin-left: 94vh;
+    margin-top: 10vh;
+}
+
+// Header
+
+.hero-h1 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: normal;
+    color: white;
+}
+
+.hero-p {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 0 90px;
+    color: white;
+    margin-bottom: 8vh;
+}
+
+.hero-text {
+    margin-top: 21vh;
+}
+
+.arrow-down::before {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    transform: translate(-13vh, 21vh);
+}
+
+// End: Header ---------------------------------------
