@@ -48,6 +48,10 @@ Technologies and Tools Used:
 - Readme Created and Updated
 - Image-optimization
 
+2019-03-08:
+-Finshed up the header
+-
+
 ## Contributors
 
 Khanyiso Haman @ 2019
