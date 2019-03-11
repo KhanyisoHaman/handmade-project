@@ -340,3 +340,78 @@
 }
 
 // End: Footer
+
+// Conculusion: Home Page
+
+
+// Beginning: About Page
+
+// Start: Header
+
+// Top Nav Open
+
+.about-top-nav {
+  height: 53px;
+  background-color: #eeeeee;
+
+  ul {
+      margin: 0;
+      padding: 0 25vh;
+      padding-top: 15px;
+  }
+
+  li {
+      display: inline;
+      padding: 10px;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 12px;
+      line-height: 1.83;
+      letter-spacing: 2.4px;
+      text-align: left;
+      color: #999999;
+  }
+
+  a {
+      text-decoration: none;
+  }
+}
+
+.nav-text {
+    margin: 0 24vh;
+}
+// Top Nav Close
+
+// --------------
+
+// Bottom Nav Open
+.about-bottom-nav {
+  height: 93px;
+  background-color: #ffffff;
+
+  ul {
+      padding: 0 25vh;
+      padding-top: 25px;  
+  }
+
+  li {
+      list-style: none;
+      color: #666666;
+      padding: 5px;
+  }
+
+  a {
+    font-family: 'Dosis', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #666666;
+  }
+}
+
+.about-logo {
+    margin-right: 54vh;
+}
+// Bottom Nav Close
+
+// End: Header
