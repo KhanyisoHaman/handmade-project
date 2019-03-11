@@ -348,6 +348,10 @@
 
 // Start: Header
 
+.header-about {
+    height: auto;
+}
+
 // Top Nav Open
 
 .about-top-nav {
@@ -414,4 +418,157 @@
 }
 // Bottom Nav Close
 
+.hero-about {
+    height: 445px;
+    background-color: #666666;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.about-us {
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #ffffff;
+    margin: 0;
+    padding-top: 22vh;
+}
+
+.h3-about-hero {
+    font-size: 15px;
+    font-weight: 600;
+    color: #cccccc;
+    letter-spacing: 1px;
+}
+
 // End: Header
+
+
+// Start: Who We Are
+
+.who-we-are {
+    height: 548px;
+    background-color: #ffffff;
+    font-family: 'Source Sans Pro', sans-serif;
+    // margin-top: 10vh;
+    padding: 10vh;
+
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2,auto);
+}
+
+.who-image {
+    width: 600px;
+    height: 490px;
+    background-color: #666666;
+}
+
+.who-text {
+    width: 600px;
+    height: 490px;
+}
+
+.h1-who {
+    font-size: 36px;
+    line-height: 0.67;
+    text-align: center;
+    color: #333333;
+    margin: 0;
+}
+
+.p-who {
+    color: #666666;
+    margin: 30px 0;
+}
+// End: Who We Are
+
+// Start: Meet Our Team
+
+.meet-our-team {
+    height: 721px;
+    padding: 15vh;
+}
+
+.grid-mot {
+    display:  grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(4,auto);
+
+    margin: 10vh 0;
+}
+
+.grid-mot h5 {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #333333;
+    margin: 0;
+}
+
+.grid-mot h6 {
+    text-align: center;
+    color: #999999;
+    margin: 0;
+}
+
+.icon-mot {
+    padding: 10px;
+    text-align: center;
+    color: #555555;
+    font-size: 15px;
+    word-spacing: 15px;
+}
+
+.h1-mot {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 36px;
+    line-height: 1.33;
+    text-transform: uppercase;
+    text-align: center;
+    color: #333333;
+    margin: 0;
+}
+
+.image-mot {
+    width: 270px;
+    height: 305px;
+    background-color: #666666;
+}
+// End: Meet Our Team
+
+
+// Start: What We Do
+
+.what-we-do {
+    height: 590px;
+    padding: 10vh 15vh;
+    font-family: 'Source Sans Pro', sans-serif;
+
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: repeat(2,auto);
+}
+
+.wwd-image {
+    width: 600px;
+    height: 490px;
+    background-color: #666666;
+}
+
+.h1-wwd {
+  font-size: 36px;
+  text-align: center;
+  color: #333333;
+  margin: 0;
+}
+
+.wwd-text p {
+  font-size: 15px;
+  color: #666666;
+}
+
+
+
+// End: What We Do
