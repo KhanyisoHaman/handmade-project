@@ -661,11 +661,12 @@
   border: solid 1px #e6e6e6;
   background-color: #f0f0f0;
   font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
 }
 
-.location {
-    width: 22px;
-    height: 37px;
+.location{
+    width: 32px;
+    height: 35px;
     font-size: 36px;
     line-height: 0.58;
     text-align: center;
@@ -686,6 +687,50 @@
     line-height: 1.39;
     text-align: center;
     color: #666666;
+}
+
+.h4-contact-number {
+    font-size: 18px;
+    line-height: 1.39;
+    text-align: center;
+    color: #666666;
+}
+
+
+.h4-contact-mail {
+    font-size: 18px;
+    line-height: 1.39;
+    text-align: center;
+    color: #666666;
+}
+
+.fa-clock {
+    font-size: 33px;
+    text-align: center;
+    color: #000000;
+
+}
+
+.h2-contact-time {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: 1.3px;
+    text-align: center;
+    color: #333333;
+}
+
+.email {
+    width: 155px;
+    height: 40px;
+    background-color: #ac907f;
+    text-transform: uppercase;
+    line-height: 1.4;
+    letter-spacing: 1.5px;
+    text-align: center;
+    color: #ffffff;
+    border: 1px solid #ac907f;
+    cursor: pointer;
 }
 
 // Contact Page Close
