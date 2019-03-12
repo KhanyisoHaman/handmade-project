@@ -511,6 +511,35 @@ header {
   font-size: 15px;
   color: #666666; }
 
+.contact-grid-items {
+  width: 390px;
+  height: 200px;
+  border: solid 1px #e6e6e6;
+  background-color: #f0f0f0;
+  font-family: 'Source Sans Pro', sans-serif; }
+
+.location {
+  width: 22px;
+  height: 37px;
+  font-size: 36px;
+  line-height: 0.58;
+  text-align: center;
+  color: #090803; }
+
+.h2-contact {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 1.3px;
+  text-align: center;
+  color: #333333; }
+
+.h4-contact {
+  font-size: 18px;
+  line-height: 1.39;
+  text-align: center;
+  color: #666666; }
+
 .fab {
   color: #999999; }
 
@@ -551,5 +580,11 @@ header {
   display: grid;
   grid-gap: 15px;
   grid-template-columns: repeat(4, auto); }
+
+.contact-grids {
+  display: grid;
+  grid-gap: 0;
+  grid-template-columns: repeat(3, auto);
+  padding: 10vh 15vh; }
 
 /*# sourceMappingURL=main.css.map */

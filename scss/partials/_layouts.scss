@@ -54,3 +54,15 @@
 }
 
 // End: Footer
+
+
+// Contact Page Open
+
+.contact-grids {
+    display: grid;
+    grid-gap: 0;
+    grid-template-columns: repeat(3,auto);
+    padding: 10vh 15vh;
+}
+
+// Contact Page Close
