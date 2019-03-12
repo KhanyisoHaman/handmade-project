@@ -12,7 +12,8 @@ li {
     text-decoration: none; }
 
 header {
-  background-image: url(../images/art-artistic-arts-and-crafts-395074.jpg);
+  background: linear-gradient(rgba(31, 28, 28, 0.589), rgba(0, 0, 0, 0.01)), url(../images/art-artistic-arts-and-crafts-395074.jpg);
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -50,6 +51,10 @@ header {
   letter-spacing: 9px;
   color: #fffefe; }
 
+.logo:hover {
+  text-decoration: none !important;
+  cursor: default; }
+
 .navigation-bottom {
   margin-top: 20px;
   text-align: center;
@@ -59,6 +64,9 @@ header {
     padding: 0 20px; }
   .navigation-bottom a {
     color: white; }
+
+.navigation-bottom a:hover {
+  text-decoration: underline; }
 
 .button {
   font-family: 'Source Sans Pro', sans-serif;
@@ -122,6 +130,21 @@ header {
   width: 370px;
   height: 360px; }
 
+.stationery {
+  background-image: url(../images/diy/stationery.png);
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.office {
+  background-image: url(../images/diy/office\ suite.png);
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.cleaning {
+  background-image: url(../images/diy/cleaning\ agents.png);
+  background-size: cover;
+  background-repeat: no-repeat; }
+
 .h2-featured {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 20px;
@@ -160,7 +183,10 @@ header {
 .hand-craft {
   height: 552px;
   opacity: 0.9;
-  background-color: #666666; }
+  background-color: #666666;
+  background-image: url(../images/close-up-diy-measuring-tape-1573830.jpg);
+  background-size: cover;
+  background-attachment: fixed; }
 
 .h1-hand-craft {
   font-family: 'Dosis', sans-serif;
@@ -283,6 +309,40 @@ header {
   padding: 35px;
   margin: 0; }
 
+.basket {
+  background-image: url(../images/diy/basketwhitewall.jpg);
+  background-size: cover;
+  background-position-x: -12px;
+  background-position-y: 0px; }
+
+.blowdrier {
+  background-image: url(../images/diy/blowdrier.png);
+  background-size: contain; }
+
+.book {
+  background-image: url(../images/diy/book\ holder.png);
+  background-size: contain; }
+
+.cutlery {
+  background-image: url(../images/diy/cutlery\ holder.png);
+  background-size: contain; }
+
+.desk {
+  background-image: url(../images/diy/desk_organiser.jpg);
+  background-size: contain; }
+
+.toilet {
+  background-image: url(../images/diy/toilet\ paper.png);
+  background-size: contain; }
+
+.sponge {
+  background-image: url(../images/diy/sponge\ holder.png);
+  background-size: contain; }
+
+.toiletrly {
+  background-image: url(../images/diy/toiletrly.png);
+  background-size: contain; }
+
 .header-about {
   height: auto; }
 
@@ -325,6 +385,12 @@ header {
     letter-spacing: 0.8px;
     text-align: left;
     color: #666666; }
+
+.home {
+  padding-left: 172px !important; }
+
+.lookbook {
+  padding-right: 172px !important; }
 
 .about-logo {
   margin-right: 54vh; }
@@ -451,6 +517,12 @@ header {
 .fa-shopping-cart {
   padding: 15px; }
 
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url(../fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf); }
+@font-face {
+  font-family: 'Dosis';
+  src: url(.../fonts/Dosis/Dosis-Regular.ttf); }
 .featured-grids {
   display: grid;
   grid-gap: 30px;

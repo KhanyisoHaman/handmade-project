@@ -46,6 +46,11 @@
     color: #fffefe;
 }
 
+.logo:hover {
+    text-decoration: none !important;
+    cursor: default;
+}
+
 .navigation-bottom {
     margin-top: 20px;
     text-align: center;
@@ -58,7 +63,11 @@
 
     a {
         color: white;
-    }
+    } 
+}
+
+.navigation-bottom a:hover {
+    text-decoration: underline;
 }
 
 .button {
@@ -138,6 +147,25 @@
     height: 360px;
 }
 
+.stationery {
+    background-image: url(../images/diy/stationery.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.office {
+    background-image: url(../images/diy/office\ suite.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cleaning {
+    background-image: url(../images/diy/cleaning\ agents.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
 .h2-featured {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 20px;
@@ -191,6 +219,9 @@
     height: 552px;
     opacity: 0.9;
     background-color: #666666;
+    background-image: url(../images/close-up-diy-measuring-tape-1573830.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .h1-hand-craft {
@@ -339,6 +370,48 @@
     margin: 0;
 }
 
+.basket {
+    background-image: url(../images/diy/basketwhitewall.jpg);
+    background-size: cover;
+    background-position-x: -12px;
+    background-position-y: 0px;
+}
+
+.blowdrier {
+    background-image: url(../images/diy/blowdrier.png);
+    background-size: contain;
+}
+
+.book {
+    background-image: url(../images/diy/book\ holder.png);
+    background-size: contain;
+}
+
+.cutlery {
+    background-image: url(../images/diy/cutlery\ holder.png);
+    background-size: contain;
+}
+
+.desk {
+    background-image: url(../images/diy/desk_organiser.jpg);
+    background-size: contain;
+}
+
+.toilet {
+    background-image: url(../images/diy/toilet\ paper.png);
+    background-size: contain;
+}
+
+.sponge {
+    background-image: url(../images/diy/sponge\ holder.png);
+    background-size: contain;
+}
+
+.toiletrly {
+    background-image: url(../images/diy/toiletrly.png);
+    background-size: contain;
+}
+
 // End: Footer
 
 // Conculusion: Home Page
@@ -411,6 +484,14 @@
     text-align: left;
     color: #666666;
   }
+}
+
+.home {
+    padding-left: 172px !important;
+}
+
+.lookbook {
+    padding-right: 172px !important;
 }
 
 .about-logo {

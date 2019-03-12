@@ -25,7 +25,8 @@ li {
 // Header
 
 header{
-    background-image: url(../images/art-artistic-arts-and-crafts-395074.jpg);
+    background: linear-gradient(rgba(31, 28, 28, 0.589),rgba(0, 0, 0, 0.01)), url(../images/art-artistic-arts-and-crafts-395074.jpg);
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
