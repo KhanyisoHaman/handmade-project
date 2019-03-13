@@ -130,6 +130,23 @@ textarea {
   background-color: #f5f5f5;
   padding: 30px; }
 
+.new {
+  width: 60px;
+  height: 25px;
+  border-radius: 7.5px;
+  background-color: #a88d7b;
+  z-index: 2;
+  position: absolute;
+  transform: translate(700px, 10px); }
+  .new p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 2px; }
+
 .featured-h1 {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 36px;
@@ -596,6 +613,52 @@ textarea {
   border: 1px solid #ac907f;
   cursor: pointer; }
 
+.our-blog {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 15px;
+  color: #666666;
+  height: 80px; }
+  .our-blog ul {
+    padding: 20px 10vh; }
+  .our-blog li {
+    padding: 5px; }
+  .our-blog a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #666666;
+    text-transform: capitalize !important; }
+
+.blog-log {
+  padding-right: 142vh; }
+
+.blog-main {
+  font-family: 'Source Sans Pro', sans-serif; }
+  .blog-main h2 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 2.4;
+    color: #333333;
+    margin-bottom: 0;
+    margin-top: 0; }
+  .blog-main h3 {
+    font-size: 15px;
+    line-height: 3.2;
+    color: #999999;
+    margin-top: 0; }
+  .blog-main p {
+    font-size: 15px;
+    color: #666666; }
+  .blog-main hr {
+    width: 370px;
+    height: 0.5px;
+    background-color: #ebebeb;
+    text-align: left; }
+
+.main-grid-image {
+  width: 370px;
+  height: 225px;
+  background-color: #666666; }
+
 .fab {
   color: #999999; }
 
@@ -648,5 +711,11 @@ textarea {
   grid-gap: 10px;
   grid-template-columns: repeat(2, auto);
   padding: 10vh 15vh; }
+
+.blog-main {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(3, auto);
+  padding: 30px 10vh; }
 
 /*# sourceMappingURL=main.css.map */

@@ -126,6 +126,28 @@
     padding: 30px;
 }
 
+.new {
+  width: 60px;
+  height: 25px;
+  border-radius: 7.5px;
+  background-color: #a88d7b;
+
+
+  z-index: 2;
+  position: absolute;
+  transform: translate(700px, 10px);
+
+  p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 2px;
+  }
+}
+
 .featured-h1 {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 36px;
@@ -734,3 +756,77 @@
 }
 
 // Contact Page Close
+
+
+// Blog Page Open
+
+.our-blog { 
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    color: #666666;
+    height: 80px;
+
+    ul {
+        padding: 20px 10vh;
+    }
+
+    li {
+        padding: 5px;
+    }
+
+    a {
+        text-decoration: none;
+        font-size: 15px;
+        color: #666666;
+        text-transform: capitalize !important;
+    }
+  }
+
+.blog-log {
+    padding-right: 142vh;
+}
+
+.blog-main {
+    font-family: 'Source Sans Pro', sans-serif;
+
+    h2 {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 2.4;
+        color: #333333;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    h3 {
+        font-size: 15px;
+        line-height: 3.2;
+        color: #999999;
+        margin-top: 0;
+    }
+
+    p {
+        font-size: 15px;
+        color: #666666;
+    }
+    
+    hr {
+        width: 370px;
+        height: 0.5px;
+        background-color: #ebebeb;
+        // margin: 10px;
+        text-align: left;
+    }
+    
+}
+
+
+
+.main-grid-image {
+  width: 370px;
+  height: 225px;
+  background-color: #666666;
+}
+
+
+// Blog Page Close
