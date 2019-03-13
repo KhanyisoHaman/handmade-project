@@ -30,7 +30,7 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    color: #999999;
+    color: $warm-grey;
     // background-color: #474545;
     height: 100vh;
 }
@@ -45,20 +45,20 @@ input {
     width: 570px;
     height: 50px;
     border: solid 1px #e6e6e6;
-    background-color: #ffffff;
+    background-color: $white;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 15px;
-    color: #888888;
+    color: $colored-grey;
 }
 
 textarea {
     grid-column: span 2;
     resize: none;
     border: solid 1px #e6e6e6;
-    background-color: #ffffff;
+    background-color: $white;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 15px;
-    color: #888888;
+    color: $colored-grey;
 }
 
 

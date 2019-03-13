@@ -8,7 +8,7 @@
 .navigation-upper {
   width: 100%;
   height: 53px;
-  background-color: #2d2827;
+  background-color: $stained-brown;
 
   ul {
     margin-top: 0;
@@ -18,7 +18,7 @@
   ul li {
       padding: 10px;
       font-size: 12px;
-      color: #999999;
+      color: $warm-grey;
       font-family: 'Source Sans Pro', sans-serif;
   }
 }
@@ -73,7 +73,7 @@
 .button {
     font-family: 'Source Sans Pro', sans-serif;
     border-radius: 20px;
-    background-color: #a88d7b;
+    background-color: $dirty-brown;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: white;
@@ -130,7 +130,7 @@
   width: 60px;
   height: 25px;
   border-radius: 7.5px;
-  background-color: #a88d7b;
+  background-color: $dirty-brown;
 
 
   z-index: 2;
@@ -143,7 +143,7 @@
     font-weight: 600;
     text-transform: uppercase;
     text-align: center;
-    color: #ffffff;
+    color: $white;
     margin-top: 2px;
   }
 }
@@ -152,7 +152,7 @@
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 36px;
     text-align: center;
-    color: #333333;
+    color: $deep-grey;
     text-transform: uppercase;
     margin-bottom: 0;
 }
@@ -160,11 +160,11 @@
 .h1-line {
     height: 1.5px;
     width: 50px;
-    background-color: #a88d7b;
+    background-color: $dirty-brown;
 } 
 
 .fgrid-items {
-    background-color: #666666;
+    background-color: $mid-grey;
     width: 370px;
     height: 360px;
 }
@@ -193,7 +193,7 @@
     font-size: 20px;
     font-weight: 600;
     text-align: center;
-    color: #333333;
+    color: $deep-grey;
     margin: 0;
 }
 
@@ -201,7 +201,7 @@
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 15px;
     text-align: center;
-    color: #999999;
+    color: $warm-grey;
     text-align: center;
     margin: 0;
 }
@@ -212,13 +212,13 @@
 
 .collection {
   height: 705px;
-  background-color: #ffffff;
+  background-color: $white;
 }
 
 .cgrids-items {
     width: 570px;
     height: 373px;
-    background-color: #666666;
+    background-color: $mid-grey;
 }
 
 .h2-collection {
@@ -228,7 +228,7 @@
     line-height: 1.92;
     letter-spacing: 2.5px;
     text-align: center;
-    color: #a88d7b;
+    color: $dirty-brown;
     margin: 0;
 }
 
@@ -240,7 +240,7 @@
 .hand-craft {
     height: 552px;
     opacity: 0.9;
-    background-color: #666666;
+    background-color: $mid-grey;
     background-image: url(../images/close-up-diy-measuring-tape-1573830.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -253,14 +253,14 @@
     font-weight: lighter;
     letter-spacing: normal;
     text-align: center;
-    color: #ffffff;
+    color: $white;
 }
 
 .p-hand-craft {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 15px;
     text-align: center;
-    color: #ffffff;
+    color: $white;
 }
 
 .hand-craft-sub {
@@ -270,11 +270,11 @@
 
 .view {
     padding: 10px 30px;
-    background-color: #a88d7b;
+    background-color: $dirty-brown;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 15px;
     text-align: center;
-    color: #ffffff;
+    color: $white;
     position: absolute;
     text-decoration: none;
     transform: translate(41vh,10vh);
@@ -285,7 +285,7 @@
 // Start: Our Blog
 .blog {
     height: 671px;
-    background-color: #f9f9f9;
+    background-color: $dirty-white;
 }
 
 .blog-items {
@@ -298,7 +298,7 @@
     font-size: 25px;
     font-weight: 600;
     text-align: left;
-    color: #333333;
+    color: $deep-grey;
     margin-top: 0;
 }
 
@@ -307,7 +307,7 @@
     font-size: 15px;
     line-height: 3.2;
     text-align: left;
-    color: #999999;
+    color: $warm-grey;
 }
 
 .p-blog {
@@ -315,7 +315,7 @@
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 15px;
     text-align: left;
-    color: #666666;
+    color: $mid-grey;
     margin-bottom: 50px;
 }
 
@@ -324,14 +324,14 @@
     font-size: 15px;
     letter-spacing: 1.5px;
     text-align: left;
-    color: #a88d7b;
+    color: $dirty-brown;
     text-decoration: none;
 }
 
 .blog-items {
     width: 585px;
     height: 405px;
-    background-color: #666666;
+    background-color: $mid-grey;
 }
 
 // End: Our Blog
@@ -340,7 +340,7 @@
 
 .footer {
     height: 425px;
-    background-color: #2d2827;
+    background-color: $stained-brown;
 }
 
 .h1-footer {
@@ -349,13 +349,13 @@
     font-weight: lighter;
     letter-spacing: 4px;
     text-align: left;
-    color: #e5e5e5;
+    color: $stained-grey;
     margin: 8px;
 }
 
 .copyright {
     height: 85px;
-    background-color: #d7d7d7;
+    background-color: $light-grey;
 }
 
 .h3-footer {
@@ -364,7 +364,7 @@
     font-weight: bold;
     text-transform: uppercase;
     text-align: left;
-    color: #e5e5e5;
+    color: $stained-grey;
 }
 
 .footer-text {
@@ -374,20 +374,20 @@
     text-decoration: none;
     padding: 20px 0;
     text-align: left;
-    color: #999999;
+    color: $warm-grey;
 }
 
 .footer-grid-item {
   width: 80px;
   height: 80px;
-  background-color: #ffffff;
+  background-color: $white;
 }
 
 .p-copyright {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 14px;
     text-align: center;
-    color: #666666;
+    color: $mid-grey;
     padding: 35px;
     margin: 0;
 }
@@ -451,7 +451,7 @@
 
 .about-top-nav {
   height: 53px;
-  background-color: #eeeeee;
+  background-color: $super-grey;
 
   ul {
       margin: 0;
@@ -467,7 +467,7 @@
       line-height: 1.83;
       letter-spacing: 2.4px;
       text-align: left;
-      color: #999999;
+      color: $warm-grey;
   }
 
   a {
@@ -485,7 +485,7 @@
 // Bottom Nav Open
 .about-bottom-nav {
   height: 93px;
-  background-color: #ffffff;
+  background-color: $white;
 
   ul {
       padding: 0 25vh;
@@ -494,7 +494,7 @@
 
   li {
       list-style: none;
-      color: #666666;
+      color: $mid-grey;
       padding: 5px;
   }
 
@@ -504,7 +504,7 @@
     font-weight: 600;
     letter-spacing: 0.8px;
     text-align: left;
-    color: #666666;
+    color: $mid-grey;
   }
 }
 
@@ -523,7 +523,7 @@
 
 .hero-about {
     height: 445px;
-    background-color: #666666;
+    background-color: $mid-grey;
     text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
 }
@@ -532,7 +532,7 @@
     font-size: 50px;
     text-transform: uppercase;
     letter-spacing: 5px;
-    color: #ffffff;
+    color: $white;
     margin: 0;
     padding-top: 22vh;
 }
@@ -540,7 +540,7 @@
 .h3-about-hero {
     font-size: 15px;
     font-weight: 600;
-    color: #cccccc;
+    color: $anti-grey;
     letter-spacing: 1px;
 }
 
@@ -551,7 +551,7 @@
 
 .who-we-are {
     height: 548px;
-    background-color: #ffffff;
+    background-color: $white;
     font-family: 'Source Sans Pro', sans-serif;
     // margin-top: 10vh;
     padding: 10vh;
@@ -564,7 +564,7 @@
 .who-image {
     width: 600px;
     height: 490px;
-    background-color: #666666;
+    background-color: $mid-grey;
 }
 
 .who-text {
@@ -576,12 +576,12 @@
     font-size: 36px;
     line-height: 0.67;
     text-align: center;
-    color: #333333;
+    color: $deep-grey;
     margin: 0;
 }
 
 .p-who {
-    color: #666666;
+    color: $mid-grey;
     margin: 30px 0;
 }
 // End: Who We Are
@@ -606,20 +606,20 @@
     font-weight: 600;
     letter-spacing: 1px;
     text-align: center;
-    color: #333333;
+    color: $deep-grey;
     margin: 0;
 }
 
 .grid-mot h6 {
     text-align: center;
-    color: #999999;
+    color: $warm-grey;
     margin: 0;
 }
 
 .icon-mot {
     padding: 10px;
     text-align: center;
-    color: #555555;
+    color: $grey;
     font-size: 15px;
     word-spacing: 15px;
 }
@@ -630,14 +630,14 @@
     line-height: 1.33;
     text-transform: uppercase;
     text-align: center;
-    color: #333333;
+    color: $deep-grey;
     margin: 0;
 }
 
 .image-mot {
     width: 270px;
     height: 305px;
-    background-color: #666666;
+    background-color: $mid-grey;
 }
 // End: Meet Our Team
 
@@ -657,19 +657,19 @@
 .wwd-image {
     width: 600px;
     height: 490px;
-    background-color: #666666;
+    background-color: $mid-grey;
 }
 
 .h1-wwd {
   font-size: 36px;
   text-align: center;
-  color: #333333;
+  color: $deep-grey;
   margin: 0;
 }
 
 .wwd-text p {
   font-size: 15px;
-  color: #666666;
+  color: $mid-grey;
 }
 
 // End: What We Do
@@ -681,7 +681,7 @@
   width: 390px;
   height: 200px;
   border: solid 1px #e6e6e6;
-  background-color: #f0f0f0;
+  background-color: $fever-white;
   font-family: 'Source Sans Pro', sans-serif;
   text-align: center;
 }
@@ -692,7 +692,7 @@
     font-size: 36px;
     line-height: 0.58;
     text-align: center;
-    color: #090803;
+    color: $darkie-black;
 }
 
 .h2-contact {
@@ -701,21 +701,21 @@
     line-height: 1;
     letter-spacing: 1.3px;
     text-align: center;
-    color: #333333;
+    color: $deep-grey;
 }
 
 .h4-contact {
     font-size: 18px;
     line-height: 1.39;
     text-align: center;
-    color: #666666;
+    color: $mid-grey;
 }
 
 .h4-contact-number {
     font-size: 18px;
     line-height: 1.39;
     text-align: center;
-    color: #666666;
+    color: $mid-grey;
 }
 
 
@@ -723,13 +723,13 @@
     font-size: 18px;
     line-height: 1.39;
     text-align: center;
-    color: #666666;
+    color: $mid-grey;
 }
 
 .fa-clock {
     font-size: 33px;
     text-align: center;
-    color: #000000;
+    color: $black;
 
 }
 
@@ -739,19 +739,19 @@
     line-height: 1;
     letter-spacing: 1.3px;
     text-align: center;
-    color: #333333;
+    color: $deep-grey;
 }
 
 .email {
     width: 155px;
     height: 40px;
-    background-color: #ac907f;
+    background-color: $mixed-brown;
     text-transform: uppercase;
     line-height: 1.4;
     letter-spacing: 1.5px;
     text-align: center;
-    color: #ffffff;
-    border: 1px solid #ac907f;
+    color: $white;
+    border: 1px solid $mixed-brown;
     cursor: pointer;
 }
 
@@ -763,7 +763,7 @@
 .our-blog { 
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 15px;
-    color: #666666;
+    color: $mid-grey;
     height: 80px;
 
     ul {
@@ -777,7 +777,7 @@
     a {
         text-decoration: none;
         font-size: 15px;
-        color: #666666;
+        color: $mid-grey;
         text-transform: capitalize !important;
     }
   }
@@ -793,7 +793,7 @@
         font-size: 20px;
         font-weight: 600;
         line-height: 2.4;
-        color: #333333;
+        color: $deep-grey;
         margin-bottom: 0;
         margin-top: 0;
     }
@@ -801,19 +801,19 @@
     h3 {
         font-size: 15px;
         line-height: 3.2;
-        color: #999999;
+        color: $warm-grey;
         margin-top: 0;
     }
 
     p {
         font-size: 15px;
-        color: #666666;
+        color: $mid-grey;
     }
     
     hr {
         width: 370px;
         height: 0.5px;
-        background-color: #ebebeb;
+        background-color: $ebie-grey;
         // margin: 10px;
         text-align: left;
     }
@@ -825,7 +825,7 @@
 .main-grid-image {
   width: 370px;
   height: 225px;
-  background-color: #666666;
+  background-color: $mid-grey;
 }
 
 
