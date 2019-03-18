@@ -33,7 +33,7 @@
     text-align: center;
     letter-spacing: 2.4px;
     width: 349px;
-    margin: 0 271px;
+    margin: 0 184px;
 }
 
 // Bottom Navigation Bar
@@ -149,12 +149,7 @@
 }
 
 .featured-h1 {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 36px;
-    text-align: center;
-    color: $deep-grey;
-    text-transform: uppercase;
-    margin-bottom: 0;
+    @include h2-styles;
 }
 
 .h1-line {
@@ -164,7 +159,7 @@
 } 
 
 .fgrid-items {
-    background-color: $mid-grey;
+    background-color: $white;
     width: 370px;
     height: 360px;
 }
@@ -176,13 +171,14 @@
 }
 
 .office {
-    background-image: url(../images/diy/office\ suite.png);
-    background-size: cover;
+    background-image: url(../images/Kudhinda057.JPG);
+    background-size: contain;
     background-repeat: no-repeat;
+    background-position-y: 40px;
 }
 
 .cleaning {
-    background-image: url(../images/diy/cleaning\ agents.png);
+    background-image: url(../images/diy/jean_bag.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -215,10 +211,21 @@
   background-color: $white;
 }
 
+.desks {
+    background-image: url(../images/How-to-Make-a-Message-Board-From-an-Old-Picture-Frame-via-House-by-Hoff2-1024x732.png);
+    background-size: contain;
+}
+
+.home-image {
+    background-image: url(../images/diy/basketwhitewall.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .cgrids-items {
     width: 570px;
     height: 373px;
-    background-color: $mid-grey;
+    // background-color: $mid-grey;
 }
 
 .h2-collection {
@@ -293,6 +300,11 @@
     height: 405px;
 }
 
+.image {
+    background-image: url(../images/hands_crafting.jpeg);
+    background-size: cover;
+}
+
 .h3-blog {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 25px;
@@ -339,7 +351,7 @@
 // Start: Footer
 
 .footer {
-    height: 425px;
+    height: 325px;
     background-color: $stained-brown;
 }
 
@@ -376,6 +388,11 @@
     text-align: left;
     color: $warm-grey;
 }
+
+.cool-padding a {
+    width: 300px;
+}
+
 
 .footer-grid-item {
   width: 80px;
@@ -486,6 +503,9 @@
 .about-bottom-nav {
   height: 93px;
   background-color: $white;
+  position: sticky;
+  top: 0;
+  z-index: 2;
 
   ul {
       padding: 0 25vh;
@@ -523,12 +543,19 @@
 
 .hero-about {
     height: 445px;
-    background-color: $mid-grey;
+    // background-color: $mid-grey;
+    background-image: url(../images/close-up-diy-measuring-tape-1573830.jpg);
+    background-size: 209vh;
+    background-position-x: 48%;
+    background-position-y: 72%;
+    background-repeat: no-repeat;
     text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
+    filter: grayscale(49%);
 }
 
 .about-us {
+    filter: grayscale(0);
     font-size: 50px;
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -537,11 +564,21 @@
     padding-top: 22vh;
 }
 
-.h3-about-hero {
+.h3-about-hero, a {
+    filter: grayscale(0);
     font-size: 15px;
     font-weight: 600;
     color: $anti-grey;
     letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.h3-about-hero a:hover {
+    text-decoration: underline;
+}
+
+.home-tag {
+    color: $white !important;
 }
 
 // End: Header
@@ -565,6 +602,8 @@
     width: 600px;
     height: 490px;
     background-color: $mid-grey;
+    background-image: url(../images/meet-the-team.jpg);
+    background-size: cover;
 }
 
 .who-text {
@@ -658,6 +697,8 @@
     width: 600px;
     height: 490px;
     background-color: $mid-grey;
+    background-image: url(../images/blur-close-up-crafts-6435.jpg);
+    background-size: cover;
 }
 
 .h1-wwd {
@@ -766,6 +807,7 @@
     color: $mid-grey;
     height: 80px;
 
+
     ul {
         padding: 20px 10vh;
     }
@@ -829,4 +871,69 @@
 }
 
 
+.drum {
+    background-image: url(../images/drums.jpg);
+    background-size: cover;
+}
+
+.brooklyn {
+    background-image: url(../images/brookyln-drums.png);
+    background-size: 60vh;
+    background-repeat: no-repeat;
+    background-position-y: 37%;
+    background-color: $white !important;
+}
+
+.map {
+    background-image: url(../images/electric_flowers.jpg);
+    background-size: cover;
+}
+
+.key {
+    background-image: url(../images/diy_key_holder-7.png);
+    background-size: contain;
+}
+
+.hearts {
+    background-image: url(../images/Main-Hearts2.png);
+    background-size: cover;
+}
+
+.bowls {
+    background-image: url(../images/Bowls.jpg);
+    background-size: contain;
+}
 // Blog Page Close
+
+
+// LookBook Open
+
+.lookbook-items {
+    background-color: $white;
+}
+
+.lookbook-items img {
+    width: 100%;
+    height: 100%;
+    transition: transform 1s ease-in;
+}
+
+.lookbook-items img:hover {
+    transform: scale(1.05);
+    border-radius: 10px;
+    transition: transform 2s ease-in-out;
+}
+
+.baskets {
+    grid-column: span 2;
+}
+
+.leaf {
+    grid-column: span 2;
+}
+
+
+
+// .book-holder {}
+
+// LoookBook Close

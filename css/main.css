@@ -12,7 +12,7 @@ li {
     text-decoration: none; }
 
 header {
-  background: linear-gradient(rgba(31, 28, 28, 0.589), rgba(0, 0, 0, 0.01)), url(../images/art-artistic-arts-and-crafts-395074.jpg);
+  background: linear-gradient(rgba(82, 80, 80, 0.589), rgba(0, 0, 0, 0.01)), url(../images/cel-lisboa-73969-unsplash.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -60,7 +60,7 @@ textarea {
   text-align: center;
   letter-spacing: 2.4px;
   width: 349px;
-  margin: 0 271px; }
+  margin: 0 184px; }
 
 .logo {
   font-family: 'Dosis', sans-serif;
@@ -161,7 +161,7 @@ textarea {
   background-color: #a88d7b; }
 
 .fgrid-items {
-  background-color: #666666;
+  background-color: #ffffff;
   width: 370px;
   height: 360px; }
 
@@ -171,12 +171,13 @@ textarea {
   background-repeat: no-repeat; }
 
 .office {
-  background-image: url(../images/diy/office\ suite.png);
-  background-size: cover;
-  background-repeat: no-repeat; }
+  background-image: url(../images/Kudhinda057.JPG);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: 40px; }
 
 .cleaning {
-  background-image: url(../images/diy/cleaning\ agents.png);
+  background-image: url(../images/diy/jean_bag.png);
   background-size: cover;
   background-repeat: no-repeat; }
 
@@ -200,10 +201,18 @@ textarea {
   height: 705px;
   background-color: #ffffff; }
 
+.desks {
+  background-image: url(../images/How-to-Make-a-Message-Board-From-an-Old-Picture-Frame-via-House-by-Hoff2-1024x732.png);
+  background-size: contain; }
+
+.home-image {
+  background-image: url(../images/diy/basketwhitewall.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 .cgrids-items {
   width: 570px;
-  height: 373px;
-  background-color: #666666; }
+  height: 373px; }
 
 .h2-collection {
   text-transform: uppercase;
@@ -261,6 +270,10 @@ textarea {
   width: 585px;
   height: 405px; }
 
+.image {
+  background-image: url(../images/hands_crafting.jpeg);
+  background-size: cover; }
+
 .h3-blog {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 25px;
@@ -298,7 +311,7 @@ textarea {
   background-color: #666666; }
 
 .footer {
-  height: 425px;
+  height: 325px;
   background-color: #2d2827; }
 
 .h1-footer {
@@ -330,6 +343,9 @@ textarea {
   padding: 20px 0;
   text-align: left;
   color: #999999; }
+
+.cool-padding a {
+  width: 300px; }
 
 .footer-grid-item {
   width: 80px;
@@ -405,7 +421,10 @@ textarea {
 
 .about-bottom-nav {
   height: 93px;
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 2; }
   .about-bottom-nav ul {
     padding: 0 25vh;
     padding-top: 25px; }
@@ -432,11 +451,17 @@ textarea {
 
 .hero-about {
   height: 445px;
-  background-color: #666666;
+  background-image: url(../images/close-up-diy-measuring-tape-1573830.jpg);
+  background-size: 209vh;
+  background-position-x: 48%;
+  background-position-y: 72%;
+  background-repeat: no-repeat;
   text-align: center;
-  font-family: 'Source Sans Pro', sans-serif; }
+  font-family: 'Source Sans Pro', sans-serif;
+  filter: grayscale(49%); }
 
 .about-us {
+  filter: grayscale(0);
   font-size: 50px;
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -444,11 +469,19 @@ textarea {
   margin: 0;
   padding-top: 22vh; }
 
-.h3-about-hero {
+.h3-about-hero, a {
+  filter: grayscale(0);
   font-size: 15px;
   font-weight: 600;
   color: #cccccc;
-  letter-spacing: 1px; }
+  letter-spacing: 1px;
+  text-decoration: none; }
+
+.h3-about-hero a:hover {
+  text-decoration: underline; }
+
+.home-tag {
+  color: #ffffff !important; }
 
 .who-we-are {
   height: 548px;
@@ -462,7 +495,9 @@ textarea {
 .who-image {
   width: 600px;
   height: 490px;
-  background-color: #666666; }
+  background-color: #666666;
+  background-image: url(../images/meet-the-team.jpg);
+  background-size: cover; }
 
 .who-text {
   width: 600px;
@@ -534,7 +569,9 @@ textarea {
 .wwd-image {
   width: 600px;
   height: 490px;
-  background-color: #666666; }
+  background-color: #666666;
+  background-image: url(../images/blur-close-up-crafts-6435.jpg);
+  background-size: cover; }
 
 .h1-wwd {
   font-size: 36px;
@@ -659,6 +696,52 @@ textarea {
   height: 225px;
   background-color: #666666; }
 
+.drum {
+  background-image: url(../images/drums.jpg);
+  background-size: cover; }
+
+.brooklyn {
+  background-image: url(../images/brookyln-drums.png);
+  background-size: 60vh;
+  background-repeat: no-repeat;
+  background-position-y: 37%;
+  background-color: #ffffff !important; }
+
+.map {
+  background-image: url(../images/electric_flowers.jpg);
+  background-size: cover; }
+
+.key {
+  background-image: url(../images/diy_key_holder-7.png);
+  background-size: contain; }
+
+.hearts {
+  background-image: url(../images/Main-Hearts2.png);
+  background-size: cover; }
+
+.bowls {
+  background-image: url(../images/Bowls.jpg);
+  background-size: contain; }
+
+.lookbook-items {
+  background-color: #ffffff; }
+
+.lookbook-items img {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s ease-in; }
+
+.lookbook-items img:hover {
+  transform: scale(1.05);
+  border-radius: 10px;
+  transition: transform 2s ease-in-out; }
+
+.baskets {
+  grid-column: span 2; }
+
+.leaf {
+  grid-column: span 2; }
+
 .fab {
   color: #999999; }
 
@@ -691,9 +774,9 @@ textarea {
 
 .footer {
   display: grid;
-  grid-gap: 10px;
+  grid-gap: 20px;
   grid-template-columns: repeat(4, 1fr);
-  padding: 30px 64px; }
+  padding: 30px 38px; }
 
 .footer-grid {
   display: grid;
@@ -717,5 +800,220 @@ textarea {
   grid-gap: 30px;
   grid-template-columns: repeat(3, auto);
   padding: 30px 10vh; }
+
+.lookbook-grid {
+  padding: 20px 50px;
+  margin: 0;
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(4, 1fr); }
+
+@media (max-width: 790px) and (min-width: 600px) {
+  .navigation-upper ul {
+    padding: 9px 24px; }
+
+  .shipping-text {
+    margin: 0 41px; }
+
+  .navigation-bottom ul {
+    margin: 0;
+    padding: 0; }
+
+  .home {
+    padding-left: 35px !important; }
+
+  .lookbook {
+    padding-right: 35px !important; }
+
+  .navigation-bottom li {
+    padding: 0 10px; }
+
+  .button {
+    margin-left: 57vh;
+    margin-top: 8vh; }
+
+  .arrow-down::before {
+    transform: translate(-15vh, 5vh); }
+
+  .featured-grids {
+    grid-gap: 30px;
+    grid-template-columns: repeat(2, auto);
+    padding: 10px 25px; }
+
+  .fgrid-items {
+    width: 270px;
+    height: 260px;
+    transform: translate(24px, 0); }
+
+  .homemade {
+    grid-column: 1;
+    grid-row: 2; }
+
+  .tribal {
+    grid-column: 2;
+    grid-row: 2; }
+
+  .bag {
+    grid-column: 1;
+    grid-row: 4; }
+
+  .new {
+    width: 60px;
+    height: 25px;
+    border-radius: 3.25px;
+    position: absolute;
+    transform: translate(541px, 10px); }
+
+  .featured {
+    height: 807px; }
+
+  .second {
+    display: none; }
+
+  .collection {
+    height: 500px; }
+
+  .collection-grids {
+    grid-gap: 45px;
+    grid-template-columns: repeat(2, auto);
+    padding: 10px 99px; }
+
+  .cgrids-items {
+    width: 270px;
+    height: 260px; }
+
+  .hand-craft-sub {
+    padding: 54px 75px;
+    width: 60%; }
+
+  .view {
+    transform: translate(30vh, 10vh); }
+
+  .blog-grid {
+    grid-gap: 10px;
+    grid-template-columns: repeat(2, auto);
+    padding: 10px 35px; }
+
+  .blog-items {
+    width: 300px;
+    height: 269px; }
+
+  .h3-blog, .h5-blog {
+    margin: 0; }
+
+  .p-blog {
+    width: 408px;
+    margin-bottom: 35px; }
+
+  .image {
+    transform: translate(-6px, 59px); }
+
+  .blog {
+    height: 484px; }
+
+  .footer {
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 15px 19px; }
+
+  .footer-grid {
+    grid-gap: 7px;
+    grid-template-columns: repeat(3, auto); }
+
+  .cool-padding a {
+    width: 257px; }
+
+  .toiletrly {
+    background-image: url(../images/diy/toiletrly.png);
+    background-size: contain;
+    grid-column: 3; } }
+@media (max-width: 450px) {
+  .button {
+    margin-left: 38vh;
+    margin-top: 10vh; }
+
+  .navigation-upper ul {
+    margin-top: 0;
+    padding: 9px 20px; }
+
+  .navigation-upper {
+    height: 70px; }
+
+  .navigation-upper ul li {
+    padding: 10px;
+    font-size: 10px; }
+
+  .icons {
+    position: absolute;
+    transform: translate(0vh, -11vh);
+    width: 150px; }
+
+  .icons a {
+    font-size: 10px; }
+
+  .shipping-text {
+    text-align: center;
+    display: block;
+    letter-spacing: 2.4px;
+    width: 250px;
+    margin: 0; }
+
+  .navigation-bottom li {
+    padding: 10px;
+    display: block;
+    text-align: left; }
+
+  .navigation-bottom ul {
+    padding: 0; }
+
+  .navigation-bottom {
+    background-color: rgba(0, 0, 0, 0.5); }
+
+  .logo {
+    text-align: center !important; }
+
+  .lookbook {
+    padding-right: 10px !important; }
+
+  .home {
+    padding-left: 10px !important; }
+
+  .featured-grids {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(1, auto);
+    padding: 10px 20px; }
+
+  .fgrid-items {
+    width: 170px;
+    height: 160px; }
+
+  .new {
+    width: 60px;
+    height: 25px;
+    transform: translate(121px, 10px); }
+
+  .collection-grids {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(1, auto);
+    padding: 20px 70px; }
+
+  .blog-grid {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(1, auto);
+    padding: 20px 70px; }
+
+  .footer {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 30px 38px; }
+
+  .footer-grid {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(2, auto); } }
 
 /*# sourceMappingURL=main.css.map */

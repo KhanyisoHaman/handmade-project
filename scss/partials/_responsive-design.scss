@@ -1,0 +1,341 @@
+// Responsive- Design
+
+// Tablet Size
+@media (max-width: 790px) and (min-width: 600px) {
+
+// Home Page Open
+
+// Header
+
+// Top Nav Bar
+.navigation-upper ul {
+    padding: 9px 24px;
+}
+
+.shipping-text {
+    margin: 0 41px;
+}
+// Top Nav Bar...
+
+
+// Bottom Nav Bar
+
+.navigation-bottom ul {
+    margin: 0;
+    padding: 0;
+}
+
+.home {
+    padding-left: 35px !important;
+}
+
+.lookbook {
+    padding-right: 35px !important;
+}
+
+.navigation-bottom li {
+    padding: 0 10px;
+}
+
+// Bottom Nav Bar...
+
+
+.button {
+    margin-left: 57vh;
+    margin-top: 8vh;
+}
+
+.arrow-down::before {
+    transform: translate(-15vh, 5vh);
+}
+
+
+// Header
+
+// Start: Featured Products
+
+.featured-grids {
+    grid-gap: 30px;
+    grid-template-columns:repeat(2,auto);
+    padding: 10px 25px;
+}
+
+.fgrid-items {
+    width: 270px;
+    height: 260px;
+    transform: translate(24px,0);
+}
+
+.homemade {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.tribal {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.bag {
+    grid-column: 1;
+    grid-row: 4;
+}
+
+.new {
+    width: 60px;
+    height: 25px;
+    border-radius: 3.25px;
+    position: absolute;
+    transform: translate(541px, 10px);
+}
+
+.featured {
+    height: 807px;
+}
+
+.second {
+    display: none;
+}
+
+
+// End: Featured Products   
+
+// Start: New Collection
+
+.collection {
+    height: 500px;
+}
+
+.collection-grids {
+    grid-gap: 45px;
+    grid-template-columns: repeat(2, auto);
+    padding: 10px 99px;
+}
+
+.cgrids-items {
+    width: 270px;
+    height: 260px;
+}
+
+// End: New Collection
+
+// Start: Hand Craft 
+
+// End: Hand Craft
+.hand-craft-sub {
+    padding: 54px 75px;
+    width: 60%;
+}
+
+.view {
+    transform: translate(30vh, 10vh);
+}
+// Start: Our Blog
+
+.blog-grid {
+    grid-gap: 10px;
+    grid-template-columns:repeat(2,auto);
+    padding: 10px 35px;
+}
+
+.blog-items {
+    width: 300px;
+    height: 269px;
+}
+
+.h3-blog, .h5-blog {
+    margin: 0;
+}
+
+.p-blog {
+    width: 408px;
+    margin-bottom: 35px;
+}
+
+.image {
+    transform: translate(-6px,59px);
+}
+
+.blog {
+    height: 484px;
+}
+// End: Our Blog
+
+// Start: Footer
+
+.footer {
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+
+    padding: 15px 19px;
+}
+
+.footer-grid {
+    grid-gap: 7px;
+    grid-template-columns: repeat(3, auto);
+}
+
+.cool-padding a {
+    width: 257px;
+}
+
+.toiletrly {
+    background-image: url(../images/diy/toiletrly.png);
+    background-size: contain;
+    grid-column: 3;
+}
+
+// Home Page Close
+
+
+} //Responsive Tablet
+// Tablet Close
+
+
+
+
+// Mobile Open
+
+@media (max-width:450px) {
+
+// Home Page OpEN
+
+// Header Start
+
+.button {
+    margin-left: 38vh;
+    margin-top: 10vh;
+}
+
+.navigation-upper ul {
+    margin-top: 0;
+    padding: 9px 20px;
+}
+
+.navigation-upper {
+    height: 70px;
+}
+
+.navigation-upper ul li {
+    padding: 10px;
+    font-size: 10px;
+}
+
+.icons {
+    position: absolute;
+    transform: translate(0vh, -11vh);
+    width: 150px;
+}
+
+.icons a {
+    font-size: 10px;
+}
+
+.shipping-text {
+    text-align: center;
+    display: block;
+    letter-spacing: 2.4px;
+    width: 250px;
+    margin: 0;
+}
+
+// Bottom
+
+.navigation-bottom li {
+    padding: 10px;
+    display: block;
+    text-align: left;
+}
+
+.navigation-bottom ul {
+    padding: 0;
+}
+
+.navigation-bottom {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+    text-align: center !important;
+}
+
+.lookbook {
+    padding-right: 10px !important;
+}
+
+.home {
+    padding-left: 10px !important;
+}
+
+
+
+
+// Header End
+// Start: Featured Products
+
+.featured-grids {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns:repeat(1,auto);
+    padding: 10px 20px;
+}
+
+.fgrid-items {
+    width: 170px;
+    height: 160px;
+}
+
+.new {
+    width: 60px;
+    height: 25px;
+    transform: translate(121px, 10px);
+}
+
+// End: Featured Products   
+
+// Start: New Collection
+
+.collection-grids {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns:repeat(1,auto);
+
+    padding: 20px 70px;
+}
+
+// End: New Collection
+
+// Start: Our Blog
+
+.blog-grid {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns:repeat(1,auto);
+
+    padding: 20px 70px;
+}
+// End: Our Blog
+
+// Start: Footer
+
+.footer {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+
+    padding: 30px 38px;
+}
+
+.footer-grid {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(2,auto);
+}
+
+// End: Footer
+
+// Home Page Close
+
+} //Responsive Mobile
+
+// Mobile Close

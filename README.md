@@ -50,7 +50,15 @@ Technologies and Tools Used:
 
 2019-03-08:
 -Finshed up the header
--
+- Adjusted header
+
+2019-03-10
+-Started with About Page
+-Edited my Homepage
+- Completed the other pages
+
+2019-03-18
+-Make Lookbook Page
 
 ## Contributors
 

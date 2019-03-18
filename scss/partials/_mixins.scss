@@ -1,0 +1,10 @@
+// My Mixins
+
+@mixin h2-styles {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 36px;
+    text-align: center;
+    color: $deep-grey;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}

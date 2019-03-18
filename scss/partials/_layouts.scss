@@ -41,10 +41,10 @@
 
 .footer {
     display: grid;
-    grid-gap: 10px;
-    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
 
-    padding: 30px 64px;
+    padding: 30px 38px;
 }
 
 .footer-grid {
@@ -87,3 +87,20 @@
 }
 
 // Blog Page Close
+
+
+
+// LookBook Open
+
+.lookbook-grid {
+    padding: 20px 50px;
+    margin: 0;
+
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(4,1fr);
+}
+
+
+
+// Lookbook Close
