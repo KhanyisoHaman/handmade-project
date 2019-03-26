@@ -1,15 +1,19 @@
 body {
-  margin: 0; }
+  margin: 0;
+}
 
 ul {
-  margin-top: 0; }
+  margin-top: 0;
+}
 
 li {
   list-style: none;
   display: inline;
-  text-transform: uppercase; }
-  li a {
-    text-decoration: none; }
+  text-transform: uppercase;
+}
+li a {
+  text-decoration: none;
+}
 
 header {
   background: linear-gradient(rgba(82, 80, 80, 0.589), rgba(0, 0, 0, 0.01)), url(../images/cel-lisboa-73969-unsplash.jpg);
@@ -18,76 +22,103 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   color: #999999;
-  height: 100vh; }
+  height: 100vh;
+}
 
 input {
   width: 570px;
   height: 50px;
   border: solid 1px #e6e6e6;
   background-color: #ffffff;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 15px;
-  color: #888888; }
+  color: #888888;
+}
 
 textarea {
   grid-column: span 2;
   resize: none;
   border: solid 1px #e6e6e6;
   background-color: #ffffff;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 15px;
-  color: #888888; }
+  color: #888888;
+}
 
 .navigation-upper {
   width: 100%;
   height: 53px;
-  background-color: #2d2827; }
-  .navigation-upper ul {
-    margin-top: 0;
-    padding: 16px 100px; }
-  .navigation-upper ul li {
-    padding: 10px;
-    font-size: 12px;
-    color: #999999;
-    font-family: 'Source Sans Pro', sans-serif; }
+  background-color: #2d2827;
+}
+.navigation-upper ul {
+  margin-top: 0;
+  padding: 16px 100px;
+}
+.navigation-upper ul li {
+  padding: 10px;
+  font-size: 12px;
+  color: #999999;
+  font-family: "Source Sans Pro", sans-serif;
+}
 
 .icons {
   right: 0;
   width: 111px;
-  display: inline; }
+  display: inline;
+}
 
 .shipping-text {
   text-align: center;
   letter-spacing: 2.4px;
   width: 349px;
-  margin: 0 184px; }
+  margin: 0 184px;
+}
 
 .logo {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-size: 30px;
   text-transform: uppercase;
   letter-spacing: 9px;
-  color: #fffefe; }
+  color: #f9f9f9;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+}
 
 .logo:hover {
   text-decoration: none !important;
-  cursor: default; }
+  cursor: default;
+}
+
+.middle-nav {
+  margin-right: 50px;
+  margin-left: 139px;
+  display: inline;
+}
 
 .navigation-bottom {
   margin-top: 20px;
   text-align: center;
-  font-family: 'Dosis', sans-serif;
-  font-size: 15px; }
-  .navigation-bottom li {
-    padding: 0 20px; }
-  .navigation-bottom a {
-    color: white; }
+  font-family: "Dosis", sans-serif;
+  font-size: 15px;
+}
+.navigation-bottom ul {
+  transform: translate(-3%, 0);
+}
+.navigation-bottom li {
+  padding: 0 20px;
+}
+.navigation-bottom a {
+  color: white;
+}
 
 .navigation-bottom a:hover {
-  text-decoration: underline; }
+  text-decoration: underline;
+}
 
 .button {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   border-radius: 20px;
   background-color: #a88d7b;
   text-transform: uppercase;
@@ -97,38 +128,45 @@ textarea {
   padding: 10px 20px;
   font-size: 15px;
   margin-left: 94vh;
-  margin-top: 10vh; }
+  margin-top: 10vh;
+}
 
 .hero-h1 {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-size: 50px;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 2px;
+  line-height: 0.96;
   font-weight: normal;
-  color: white; }
+  color: white;
+}
 
 .hero-p {
   text-align: center;
   font-size: 15px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   padding: 0 90px;
   color: white;
-  margin-bottom: 8vh; }
+  margin-bottom: 8vh;
+}
 
 .hero-text {
-  margin-top: 21vh; }
+  margin-top: 21vh;
+}
 
 .arrow-down::before {
   color: white;
   font-size: 30px;
   position: absolute;
-  transform: translate(-13vh, 21vh); }
+  transform: translate(-13vh, 21vh);
+}
 
 .featured {
   height: 704px;
   background-color: #f5f5f5;
-  padding: 30px; }
+  padding: 30px;
+}
 
 .new {
   width: 60px;
@@ -137,92 +175,107 @@ textarea {
   background-color: #a88d7b;
   z-index: 2;
   position: absolute;
-  transform: translate(700px, 10px); }
-  .new p {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 15px;
-    font-weight: 600;
-    text-transform: uppercase;
-    text-align: center;
-    color: #ffffff;
-    margin-top: 2px; }
+  transform: translate(700px, 10px);
+}
+.new p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 2px;
+}
 
 .featured-h1 {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 36px;
   text-align: center;
   color: #333333;
   text-transform: uppercase;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+}
 
 .h1-line {
   height: 1.5px;
   width: 50px;
-  background-color: #a88d7b; }
+  background-color: #a88d7b;
+}
 
 .fgrid-items {
   background-color: #ffffff;
   width: 370px;
-  height: 360px; }
+  height: 360px;
+}
 
 .stationery {
   background-image: url(../images/diy/stationery.png);
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+}
 
 .office {
   background-image: url(../images/Kudhinda057.JPG);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position-y: 40px; }
+  background-position-y: 40px;
+}
 
 .cleaning {
   background-image: url(../images/diy/jean_bag.png);
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+}
 
 .h2-featured {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 20px;
   font-weight: 600;
   text-align: center;
   color: #333333;
-  margin: 0; }
+  margin: 0;
+}
 
 .h3-featured {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 15px;
   text-align: center;
   color: #999999;
   text-align: center;
-  margin: 0; }
+  margin: 0;
+}
 
 .collection {
   height: 705px;
-  background-color: #ffffff; }
+  background-color: #ffffff;
+}
 
 .desks {
   background-image: url(../images/How-to-Make-a-Message-Board-From-an-Old-Picture-Frame-via-House-by-Hoff2-1024x732.png);
-  background-size: contain; }
+  background-size: contain;
+}
 
 .home-image {
   background-image: url(../images/diy/basketwhitewall.jpg);
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+}
 
 .cgrids-items {
   width: 570px;
-  height: 373px; }
+  height: 373px;
+}
 
 .h2-collection {
   text-transform: uppercase;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 25px;
   line-height: 1.92;
   letter-spacing: 2.5px;
   text-align: center;
   color: #a88d7b;
-  margin: 0; }
+  margin: 0;
+}
 
 .hand-craft {
   height: 552px;
@@ -230,224 +283,253 @@ textarea {
   background-color: #666666;
   background-image: url(../images/close-up-diy-measuring-tape-1573830.jpg);
   background-size: cover;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+}
 
 .h1-hand-craft {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-size: 48px;
   text-transform: uppercase;
   font-weight: lighter;
   letter-spacing: normal;
   text-align: center;
-  color: #ffffff; }
+  color: #ffffff;
+}
 
 .p-hand-craft {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 15px;
   text-align: center;
-  color: #ffffff; }
+  color: #ffffff;
+}
 
 .hand-craft-sub {
   padding: 119px 75px;
-  width: 50%; }
+  width: 50%;
+}
 
 .view {
   padding: 10px 30px;
   background-color: #a88d7b;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 15px;
   text-align: center;
   color: #ffffff;
   position: absolute;
   text-decoration: none;
-  transform: translate(41vh, 10vh); }
+  transform: translate(41vh, 10vh);
+}
 
 .blog {
   height: 671px;
-  background-color: #f9f9f9; }
-
-.blog-items {
-  width: 585px;
-  height: 405px; }
-
-.image {
-  background-image: url(../images/hands_crafting.jpeg);
-  background-size: cover; }
-
-.h3-blog {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 25px;
-  font-weight: 600;
-  text-align: left;
-  color: #333333;
-  margin-top: 0; }
-
-.h5-blog {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 15px;
-  line-height: 3.2;
-  text-align: left;
-  color: #999999; }
-
-.p-blog {
-  width: 529px;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 15px;
-  text-align: left;
-  color: #666666;
-  margin-bottom: 50px; }
-
-.link-blog {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 15px;
-  letter-spacing: 1.5px;
-  text-align: left;
-  color: #a88d7b;
-  text-decoration: none; }
+  background-color: #f9f9f9;
+}
 
 .blog-items {
   width: 585px;
   height: 405px;
-  background-color: #666666; }
+}
+
+.image {
+  background-image: url(../images/hands_crafting.jpeg);
+  background-size: cover;
+}
+
+.h3-blog {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: left;
+  color: #333333;
+  margin-top: 0;
+}
+
+.h5-blog {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 15px;
+  line-height: 3.2;
+  text-align: left;
+  color: #999999;
+}
+
+.p-blog {
+  width: 529px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 15px;
+  text-align: left;
+  color: #666666;
+  margin-bottom: 50px;
+}
+
+.link-blog {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  text-align: left;
+  color: #a88d7b;
+  text-decoration: none;
+}
+
+.blog-items {
+  width: 585px;
+  height: 405px;
+  background-color: #666666;
+}
 
 .footer {
   height: 325px;
-  background-color: #2d2827; }
+  background-color: #2d2827;
+}
 
 .h1-footer {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-size: 30px;
   font-weight: lighter;
   letter-spacing: 4px;
   text-align: left;
   color: #e5e5e5;
-  margin: 8px; }
+  margin: 8px;
+}
 
 .copyright {
   height: 85px;
-  background-color: #d7d7d7; }
+  background-color: #d7d7d7;
+}
 
 .h3-footer {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
   text-align: left;
-  color: #e5e5e5; }
+  color: #e5e5e5;
+}
 
 .footer-text {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 15px;
   display: block;
   text-decoration: none;
   padding: 20px 0;
   text-align: left;
-  color: #999999; }
+  color: #999999;
+}
 
 .cool-padding a {
-  width: 300px; }
+  width: 300px;
+}
 
 .footer-grid-item {
   width: 80px;
   height: 80px;
-  background-color: #ffffff; }
+  background-color: #ffffff;
+}
 
 .p-copyright {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 14px;
   text-align: center;
   color: #666666;
   padding: 35px;
-  margin: 0; }
+  margin: 0;
+}
 
 .basket {
   background-image: url(../images/diy/basketwhitewall.jpg);
   background-size: cover;
   background-position-x: -12px;
-  background-position-y: 0px; }
+  background-position-y: 0px;
+}
 
 .blowdrier {
   background-image: url(../images/diy/blowdrier.png);
-  background-size: contain; }
+  background-size: contain;
+}
 
 .book {
-  background-image: url(../images/diy/book\ holder.png);
-  background-size: contain; }
+  background-image: url(../images/diy/book-holder.png);
+  background-size: contain;
+}
 
 .cutlery {
-  background-image: url(../images/diy/cutlery\ holder.png);
-  background-size: contain; }
+  background-image: url(../images/diy/cutlery-holder.png);
+  background-size: contain;
+}
 
 .desk {
   background-image: url(../images/diy/desk_organiser.jpg);
-  background-size: contain; }
+  background-size: contain;
+}
 
 .toilet {
-  background-image: url(../images/diy/toilet\ paper.png);
-  background-size: contain; }
+  background-image: url(../images/diy/toilet-paper.png);
+  background-size: contain;
+}
 
 .sponge {
-  background-image: url(../images/diy/sponge\ holder.png);
-  background-size: contain; }
-
-.toiletrly {
-  background-image: url(../images/diy/toiletrly.png);
-  background-size: contain; }
+  background-image: url(../images/diy/sponge-holder.png);
+  background-size: contain;
+}
 
 .header-about {
-  height: auto; }
+  height: auto;
+}
 
 .about-top-nav {
   height: 53px;
-  background-color: #eeeeee; }
-  .about-top-nav ul {
-    margin: 0;
-    padding: 0 25vh;
-    padding-top: 15px; }
-  .about-top-nav li {
-    display: inline;
-    padding: 10px;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 12px;
-    line-height: 1.83;
-    letter-spacing: 2.4px;
-    text-align: left;
-    color: #999999; }
-  .about-top-nav a {
-    text-decoration: none; }
+  background-color: #eeeeee;
+}
+.about-top-nav ul {
+  margin: 0;
+  padding: 0 25vh;
+  padding-top: 15px;
+}
+.about-top-nav li {
+  display: inline;
+  padding: 10px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 12px;
+  line-height: 1.83;
+  letter-spacing: 2.4px;
+  text-align: left;
+  color: #999999;
+}
+.about-top-nav a {
+  text-decoration: none;
+}
 
 .nav-text {
-  margin: 0 24vh; }
+  margin: 0 24vh;
+}
 
 .about-bottom-nav {
   height: 93px;
   background-color: #ffffff;
   position: sticky;
   top: 0;
-  z-index: 2; }
-  .about-bottom-nav ul {
-    padding: 0 25vh;
-    padding-top: 25px; }
-  .about-bottom-nav li {
-    list-style: none;
-    color: #666666;
-    padding: 5px; }
-  .about-bottom-nav a {
-    font-family: 'Dosis', sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    letter-spacing: 0.8px;
-    text-align: left;
-    color: #666666; }
-
-.home {
-  padding-left: 172px !important; }
-
-.lookbook {
-  padding-right: 172px !important; }
+  z-index: 2;
+}
+.about-bottom-nav ul {
+  padding: 0 25vh;
+  padding-top: 25px;
+}
+.about-bottom-nav li {
+  list-style: none;
+  color: #666666;
+  padding: 5px;
+}
+.about-bottom-nav a {
+  font-family: "Dosis", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  text-align: left;
+  color: #666666;
+}
 
 .about-logo {
-  margin-right: 54vh; }
+  margin-right: 54vh;
+}
 
 .hero-about {
   height: 445px;
@@ -457,8 +539,9 @@ textarea {
   background-position-y: 72%;
   background-repeat: no-repeat;
   text-align: center;
-  font-family: 'Source Sans Pro', sans-serif;
-  filter: grayscale(49%); }
+  font-family: "Source Sans Pro", sans-serif;
+  filter: grayscale(49%);
+}
 
 .about-us {
   filter: grayscale(0);
@@ -467,7 +550,8 @@ textarea {
   letter-spacing: 5px;
   color: #ffffff;
   margin: 0;
-  padding-top: 22vh; }
+  padding-top: 22vh;
+}
 
 .h3-about-hero, a {
   filter: grayscale(0);
@@ -475,54 +559,64 @@ textarea {
   font-weight: 600;
   color: #cccccc;
   letter-spacing: 1px;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 .h3-about-hero a:hover {
-  text-decoration: underline; }
+  text-decoration: underline;
+}
 
 .home-tag {
-  color: #ffffff !important; }
+  color: #ffffff !important;
+}
 
 .who-we-are {
   height: 548px;
   background-color: #ffffff;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   padding: 10vh;
   display: grid;
   grid-gap: 20px;
-  grid-template-columns: repeat(2, auto); }
+  grid-template-columns: repeat(2, auto);
+}
 
 .who-image {
   width: 600px;
   height: 490px;
   background-color: #666666;
   background-image: url(../images/meet-the-team.jpg);
-  background-size: cover; }
+  background-size: cover;
+}
 
 .who-text {
   width: 600px;
-  height: 490px; }
+  height: 490px;
+}
 
 .h1-who {
   font-size: 36px;
   line-height: 0.67;
   text-align: center;
   color: #333333;
-  margin: 0; }
+  margin: 0;
+}
 
 .p-who {
   color: #666666;
-  margin: 30px 0; }
+  margin: 30px 0;
+}
 
 .meet-our-team {
   height: 721px;
-  padding: 15vh; }
+  padding: 15vh;
+}
 
 .grid-mot {
   display: grid;
   grid-gap: 30px;
   grid-template-columns: repeat(4, auto);
-  margin: 10vh 0; }
+  margin: 10vh 0;
+}
 
 .grid-mot h5 {
   font-size: 20px;
@@ -530,66 +624,76 @@ textarea {
   letter-spacing: 1px;
   text-align: center;
   color: #333333;
-  margin: 0; }
+  margin: 0;
+}
 
 .grid-mot h6 {
   text-align: center;
   color: #999999;
-  margin: 0; }
+  margin: 0;
+}
 
 .icon-mot {
   padding: 10px;
   text-align: center;
   color: #555555;
   font-size: 15px;
-  word-spacing: 15px; }
+  word-spacing: 15px;
+}
 
 .h1-mot {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 36px;
   line-height: 1.33;
   text-transform: uppercase;
   text-align: center;
   color: #333333;
-  margin: 0; }
+  margin: 0;
+}
 
 .image-mot {
   width: 270px;
   height: 305px;
-  background-color: #666666; }
+  background-color: #666666;
+}
 
 .what-we-do {
   height: 590px;
   padding: 10vh 15vh;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   display: grid;
   grid-gap: 50px;
-  grid-template-columns: repeat(2, auto); }
+  grid-template-columns: repeat(2, auto);
+}
 
 .wwd-image {
   width: 600px;
   height: 490px;
   background-color: #666666;
   background-image: url(../images/blur-close-up-crafts-6435.jpg);
-  background-size: cover; }
+  background-size: cover;
+}
 
 .h1-wwd {
   font-size: 36px;
   text-align: center;
   color: #333333;
-  margin: 0; }
+  margin: 0;
+}
 
 .wwd-text p {
   font-size: 15px;
-  color: #666666; }
+  color: #666666;
+}
 
 .contact-grid-items {
   width: 390px;
   height: 200px;
   border: solid 1px #e6e6e6;
   background-color: #f0f0f0;
-  font-family: 'Source Sans Pro', sans-serif;
-  text-align: center; }
+  font-family: "Source Sans Pro", sans-serif;
+  text-align: center;
+}
 
 .location {
   width: 32px;
@@ -597,7 +701,8 @@ textarea {
   font-size: 36px;
   line-height: 0.58;
   text-align: center;
-  color: #090803; }
+  color: #090803;
+}
 
 .h2-contact {
   font-size: 25px;
@@ -605,30 +710,35 @@ textarea {
   line-height: 1;
   letter-spacing: 1.3px;
   text-align: center;
-  color: #333333; }
+  color: #333333;
+}
 
 .h4-contact {
   font-size: 18px;
   line-height: 1.39;
   text-align: center;
-  color: #666666; }
+  color: #666666;
+}
 
 .h4-contact-number {
   font-size: 18px;
   line-height: 1.39;
   text-align: center;
-  color: #666666; }
+  color: #666666;
+}
 
 .h4-contact-mail {
   font-size: 18px;
   line-height: 1.39;
   text-align: center;
-  color: #666666; }
+  color: #666666;
+}
 
 .fa-clock {
   font-size: 33px;
   text-align: center;
-  color: #000000; }
+  color: #000000;
+}
 
 .h2-contact-time {
   font-size: 25px;
@@ -636,7 +746,8 @@ textarea {
   line-height: 1;
   letter-spacing: 1.3px;
   text-align: center;
-  color: #333333; }
+  color: #333333;
+}
 
 .email {
   width: 155px;
@@ -648,372 +759,582 @@ textarea {
   text-align: center;
   color: #ffffff;
   border: 1px solid #ac907f;
-  cursor: pointer; }
+  cursor: pointer;
+}
 
 .our-blog {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 15px;
   color: #666666;
-  height: 80px; }
-  .our-blog ul {
-    padding: 20px 10vh; }
-  .our-blog li {
-    padding: 5px; }
-  .our-blog a {
-    text-decoration: none;
-    font-size: 15px;
-    color: #666666;
-    text-transform: capitalize !important; }
+  height: 80px;
+}
+.our-blog ul {
+  padding: 20px 10vh;
+}
+.our-blog li {
+  padding: 5px;
+}
+.our-blog a {
+  text-decoration: none;
+  font-size: 15px;
+  color: #666666;
+  text-transform: capitalize !important;
+}
 
 .blog-log {
-  padding-right: 142vh; }
+  padding-right: 142vh;
+}
 
 .blog-main {
-  font-family: 'Source Sans Pro', sans-serif; }
-  .blog-main h2 {
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 2.4;
-    color: #333333;
-    margin-bottom: 0;
-    margin-top: 0; }
-  .blog-main h3 {
-    font-size: 15px;
-    line-height: 3.2;
-    color: #999999;
-    margin-top: 0; }
-  .blog-main p {
-    font-size: 15px;
-    color: #666666; }
-  .blog-main hr {
-    width: 370px;
-    height: 0.5px;
-    background-color: #ebebeb;
-    text-align: left; }
+  font-family: "Source Sans Pro", sans-serif;
+}
+.blog-main h2 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 2.4;
+  color: #333333;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.blog-main h3 {
+  font-size: 15px;
+  line-height: 3.2;
+  color: #999999;
+  margin-top: 0;
+}
+.blog-main p {
+  font-size: 15px;
+  color: #666666;
+}
+.blog-main hr {
+  width: 370px;
+  height: 0.5px;
+  background-color: #ebebeb;
+  text-align: left;
+}
 
 .main-grid-image {
   width: 370px;
   height: 225px;
-  background-color: #666666; }
+  background-color: #666666;
+}
 
 .drum {
   background-image: url(../images/drums.jpg);
-  background-size: cover; }
+  background-size: cover;
+}
 
 .brooklyn {
   background-image: url(../images/brookyln-drums.png);
   background-size: 60vh;
   background-repeat: no-repeat;
   background-position-y: 37%;
-  background-color: #ffffff !important; }
+  background-color: #ffffff !important;
+}
 
 .map {
   background-image: url(../images/electric_flowers.jpg);
-  background-size: cover; }
+  background-size: cover;
+}
 
 .key {
   background-image: url(../images/diy_key_holder-7.png);
-  background-size: contain; }
+  background-size: contain;
+}
 
 .hearts {
   background-image: url(../images/Main-Hearts2.png);
-  background-size: cover; }
+  background-size: cover;
+}
 
 .bowls {
   background-image: url(../images/Bowls.jpg);
-  background-size: contain; }
+  background-size: contain;
+}
 
 .lookbook-items {
-  background-color: #ffffff; }
+  background-color: #ffffff;
+}
 
 .lookbook-items img {
   width: 100%;
   height: 100%;
-  transition: transform 1s ease-in; }
+  transition: transform 1s ease-in;
+}
 
 .lookbook-items img:hover {
   transform: scale(1.05);
   border-radius: 10px;
-  transition: transform 2s ease-in-out; }
+  transition: transform 2s ease-in-out;
+}
 
 .baskets {
-  grid-column: span 2; }
+  grid-column: span 2;
+}
 
 .leaf {
-  grid-column: span 2; }
+  grid-column: span 2;
+}
+
+.shop-page {
+  padding: 0 30vh;
+  background-color: #f5f5f5;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.results {
+  background-color: white;
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 0 30vh;
+}
+.results ul {
+  padding: 0;
+}
+.results li {
+  text-transform: capitalize;
+}
+
+.showing-results {
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.4;
+  letter-spacing: normal;
+  text-align: left;
+  color: #666666;
+  margin-right: 61%;
+}
+
+.select-order {
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.4;
+  letter-spacing: normal;
+  text-align: right;
+  color: #666666;
+}
+
+.cart-grid {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(4, 1fr);
+  padding: 30px 0;
+}
+
+.cart-images {
+  width: 300px;
+  height: 300px;
+  background-color: #666666;
+}
+
+.cart-grid-items h3 {
+  font-size: 25px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.92;
+  letter-spacing: normal;
+  text-align: left;
+  color: #333333;
+  margin: 0;
+}
+.cart-grid-items h4 {
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: #999999;
+  margin: 0;
+}
+.cart-grid-items p {
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: #666666;
+  margin-bottom: 50px;
+}
+.cart-grid-items a {
+  background-color: #ac907f;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.6;
+  letter-spacing: 1.5px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: 1px solid #ac907f;
+  padding: 10px 25px;
+  margin-top: 15px;
+}
+.cart-grid-items a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.cart-grid-items .fa-shopping-cart {
+  padding: 0;
+}
+.cart-grid-items .fa-heart {
+  float: right;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.4;
+  letter-spacing: normal;
+  color: #999999;
+}
 
 .fab {
-  color: #999999; }
+  color: #999999;
+}
 
 .fa-shopping-cart {
-  padding: 15px; }
+  padding: 15px;
+}
 
 @font-face {
-  font-family: 'Source Sans Pro';
-  src: url(../fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf); }
+  font-family: "Source Sans Pro";
+  src: url(../fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf);
+}
 @font-face {
-  font-family: 'Dosis';
-  src: url(.../fonts/Dosis/Dosis-Regular.ttf); }
+  font-family: "Dosis";
+  src: url(.../fonts/Dosis/Dosis-Regular.ttf);
+}
 .featured-grids {
   display: grid;
   grid-gap: 30px;
   grid-template-columns: repeat(3, auto);
-  padding: 20px 50px; }
+  padding: 20px 50px;
+}
 
 .collection-grids {
   display: grid;
   grid-gap: 30px;
   grid-template-columns: repeat(2, auto);
-  padding: 20px 70px; }
+  padding: 20px 70px;
+}
 
 .blog-grid {
   display: grid;
   grid-gap: 30px;
   grid-template-columns: repeat(2, auto);
-  padding: 20px 70px; }
+  padding: 20px 70px;
+}
 
 .footer {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(4, 1fr);
-  padding: 30px 38px; }
+  padding: 30px 38px;
+}
 
 .footer-grid {
   display: grid;
   grid-gap: 15px;
-  grid-template-columns: repeat(4, auto); }
+  grid-template-columns: repeat(4, auto);
+}
 
 .contact-grids {
   display: grid;
   grid-gap: 0;
   grid-template-columns: repeat(3, auto);
-  padding: 10vh 15vh; }
+  padding: 10vh 15vh;
+}
 
 .contact-form-grid {
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(2, auto);
-  padding: 10vh 15vh; }
+  padding: 10vh 15vh;
+}
 
 .blog-main {
   display: grid;
   grid-gap: 30px;
   grid-template-columns: repeat(3, auto);
-  padding: 30px 10vh; }
+  padding: 30px 10vh;
+}
 
 .lookbook-grid {
   padding: 20px 50px;
   margin: 0;
   display: grid;
   grid-gap: 30px;
-  grid-template-columns: repeat(4, 1fr); }
+  grid-template-columns: repeat(4, 1fr);
+}
 
 @media (max-width: 790px) and (min-width: 600px) {
   .navigation-upper ul {
-    padding: 9px 24px; }
+    padding: 9px 24px;
+  }
 
   .shipping-text {
-    margin: 0 41px; }
+    margin: 0 41px;
+  }
 
   .navigation-bottom ul {
     margin: 0;
-    padding: 0; }
+    padding: 0;
+  }
 
   .home {
-    padding-left: 35px !important; }
+    padding-left: 35px !important;
+  }
 
   .lookbook {
-    padding-right: 35px !important; }
+    padding-right: 35px !important;
+  }
 
   .navigation-bottom li {
-    padding: 0 10px; }
+    padding: 0 10px;
+  }
 
   .button {
     margin-left: 57vh;
-    margin-top: 8vh; }
+    margin-top: 8vh;
+  }
 
   .arrow-down::before {
-    transform: translate(-15vh, 5vh); }
+    transform: translate(-15vh, 5vh);
+  }
 
   .featured-grids {
     grid-gap: 30px;
     grid-template-columns: repeat(2, auto);
-    padding: 10px 25px; }
+    padding: 10px 25px;
+  }
 
   .fgrid-items {
     width: 270px;
     height: 260px;
-    transform: translate(24px, 0); }
+    transform: translate(24px, 0);
+  }
 
   .homemade {
     grid-column: 1;
-    grid-row: 2; }
+    grid-row: 2;
+  }
 
   .tribal {
     grid-column: 2;
-    grid-row: 2; }
+    grid-row: 2;
+  }
 
   .bag {
     grid-column: 1;
-    grid-row: 4; }
+    grid-row: 4;
+  }
 
   .new {
     width: 60px;
     height: 25px;
     border-radius: 3.25px;
     position: absolute;
-    transform: translate(541px, 10px); }
+    transform: translate(541px, 10px);
+  }
 
   .featured {
-    height: 807px; }
+    height: 807px;
+  }
 
   .second {
-    display: none; }
+    display: none;
+  }
 
   .collection {
-    height: 500px; }
+    height: 500px;
+  }
 
   .collection-grids {
     grid-gap: 45px;
     grid-template-columns: repeat(2, auto);
-    padding: 10px 99px; }
+    padding: 10px 99px;
+  }
 
   .cgrids-items {
     width: 270px;
-    height: 260px; }
+    height: 260px;
+  }
 
   .hand-craft-sub {
     padding: 54px 75px;
-    width: 60%; }
+    width: 60%;
+  }
 
   .view {
-    transform: translate(30vh, 10vh); }
+    transform: translate(30vh, 10vh);
+  }
 
   .blog-grid {
     grid-gap: 10px;
     grid-template-columns: repeat(2, auto);
-    padding: 10px 35px; }
+    padding: 10px 35px;
+  }
 
   .blog-items {
     width: 300px;
-    height: 269px; }
+    height: 269px;
+  }
 
   .h3-blog, .h5-blog {
-    margin: 0; }
+    margin: 0;
+  }
 
   .p-blog {
     width: 408px;
-    margin-bottom: 35px; }
+    margin-bottom: 35px;
+  }
 
   .image {
-    transform: translate(-6px, 59px); }
+    transform: translate(-6px, 59px);
+  }
 
   .blog {
-    height: 484px; }
+    height: 484px;
+  }
 
   .footer {
     grid-gap: 20px;
     grid-template-columns: repeat(4, 1fr);
-    padding: 15px 19px; }
+    padding: 15px 19px;
+  }
 
   .footer-grid {
     grid-gap: 7px;
-    grid-template-columns: repeat(3, auto); }
+    grid-template-columns: repeat(3, auto);
+  }
 
   .cool-padding a {
-    width: 257px; }
+    width: 257px;
+  }
 
   .toiletrly {
     background-image: url(../images/diy/toiletrly.png);
     background-size: contain;
-    grid-column: 3; } }
+    grid-column: 3;
+  }
+}
 @media (max-width: 450px) {
   .button {
     margin-left: 38vh;
-    margin-top: 10vh; }
+    margin-top: 10vh;
+  }
 
   .navigation-upper ul {
     margin-top: 0;
-    padding: 9px 20px; }
+    padding: 9px 20px;
+  }
 
   .navigation-upper {
-    height: 70px; }
+    height: 70px;
+  }
 
   .navigation-upper ul li {
     padding: 10px;
-    font-size: 10px; }
+    font-size: 10px;
+  }
 
   .icons {
     position: absolute;
     transform: translate(0vh, -11vh);
-    width: 150px; }
+    width: 150px;
+  }
 
   .icons a {
-    font-size: 10px; }
+    font-size: 10px;
+  }
 
   .shipping-text {
     text-align: center;
     display: block;
     letter-spacing: 2.4px;
     width: 250px;
-    margin: 0; }
+    margin: 0;
+  }
 
   .navigation-bottom li {
     padding: 10px;
     display: block;
-    text-align: left; }
+    text-align: left;
+  }
 
   .navigation-bottom ul {
-    padding: 0; }
+    padding: 0;
+  }
 
   .navigation-bottom {
-    background-color: rgba(0, 0, 0, 0.5); }
+    background-color: rgba(0, 0, 0, 0.5);
+  }
 
   .logo {
-    text-align: center !important; }
+    text-align: center !important;
+  }
 
   .lookbook {
-    padding-right: 10px !important; }
+    padding-right: 10px !important;
+  }
 
   .home {
-    padding-left: 10px !important; }
+    padding-left: 10px !important;
+  }
 
   .featured-grids {
     display: grid;
     grid-gap: 10px;
     grid-template-columns: repeat(1, auto);
-    padding: 10px 20px; }
+    padding: 10px 20px;
+  }
 
   .fgrid-items {
     width: 170px;
-    height: 160px; }
+    height: 160px;
+  }
 
   .new {
     width: 60px;
     height: 25px;
-    transform: translate(121px, 10px); }
+    transform: translate(121px, 10px);
+  }
 
   .collection-grids {
     display: grid;
     grid-gap: 30px;
     grid-template-columns: repeat(1, auto);
-    padding: 20px 70px; }
+    padding: 20px 70px;
+  }
 
   .blog-grid {
     display: grid;
     grid-gap: 30px;
     grid-template-columns: repeat(1, auto);
-    padding: 20px 70px; }
+    padding: 20px 70px;
+  }
 
   .footer {
     display: grid;
     grid-gap: 20px;
     grid-template-columns: repeat(2, 1fr);
-    padding: 30px 38px; }
+    padding: 30px 38px;
+  }
 
   .footer-grid {
     display: grid;
     grid-gap: 15px;
-    grid-template-columns: repeat(2, auto); } }
+    grid-template-columns: repeat(2, auto);
+  }
+}
 
 /*# sourceMappingURL=main.css.map */

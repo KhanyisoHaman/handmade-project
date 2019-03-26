@@ -60,6 +60,12 @@ Technologies and Tools Used:
 2019-03-18
 -Make Lookbook Page
 
+2019-03-26
+-Create shop Page
+-Add header and footer in shop page
+-Add h1 and images placeholders
+-
+
 ## Contributors
 
 Khanyiso Haman @ 2019
