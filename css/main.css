@@ -583,7 +583,7 @@ textarea {
   height: 548px;
   background-color: #ffffff;
   font-family: "Source Sans Pro", sans-serif;
-  padding: 10vh;
+  padding: 10vh 3vh;
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(2, auto);
@@ -617,7 +617,7 @@ textarea {
 
 .meet-our-team {
   height: 721px;
-  padding: 15vh;
+  padding: 15vh 5vh;
 }
 
 .grid-mot {
@@ -1031,10 +1031,6 @@ textarea {
   right: 25px;
   opacity: 0;
   top: 530px;
-}
-
-#button:hover {
-  background-color: black;
 }
 
 #button.show {

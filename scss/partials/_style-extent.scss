@@ -610,7 +610,8 @@
     background-color: $white;
     font-family: 'Source Sans Pro', sans-serif;
     // margin-top: 10vh;
-    padding: 10vh;
+    padding: 10vh 3vh;
+
 
     display: grid;
     grid-gap: 20px;
@@ -648,7 +649,7 @@
 
 .meet-our-team {
     height: 721px;
-    padding: 15vh;
+    padding: 15vh 5vh;
 }
 
 .grid-mot {
