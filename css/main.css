@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
 }
@@ -175,7 +179,7 @@ textarea {
   background-color: #a88d7b;
   z-index: 2;
   position: absolute;
-  transform: translate(700px, 10px);
+  transform: translate(1240%, 130%);
 }
 .new p {
   font-family: "Source Sans Pro", sans-serif;
@@ -281,7 +285,7 @@ textarea {
   height: 552px;
   opacity: 0.9;
   background-color: #666666;
-  background-image: url(../images/close-up-diy-measuring-tape-1573830.jpg);
+  background: linear-gradient(#c4ac9ccc, #5555559c), url(../images/close-up-diy-measuring-tape-1573830.jpg);
   background-size: cover;
   background-attachment: fixed;
 }
@@ -468,6 +472,11 @@ textarea {
 
 .sponge {
   background-image: url(../images/diy/sponge-holder.png);
+  background-size: contain;
+}
+
+.toiletrly {
+  background-image: url(../images/diy/toiletrly.png);
   background-size: contain;
 }
 
@@ -1005,6 +1014,34 @@ textarea {
   padding: 15px;
 }
 
+.fa-chevron-up {
+  font-size: 25px;
+  color: white;
+}
+
+#button {
+  transition: background-color 0.5s, visibility 0.7s, opacity 0.7s;
+  background-color: #a88d7b;
+  border-radius: 5px;
+  text-align: center;
+  visibility: hidden;
+  position: fixed;
+  padding: 15px;
+  z-index: 500;
+  right: 25px;
+  opacity: 0;
+  top: 530px;
+}
+
+#button:hover {
+  background-color: black;
+}
+
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
+
 @font-face {
   font-family: "Source Sans Pro";
   src: url(../fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf);
@@ -1024,14 +1061,14 @@ textarea {
   display: grid;
   grid-gap: 30px;
   grid-template-columns: repeat(2, auto);
-  padding: 20px 70px;
+  padding: 20px 50px;
 }
 
 .blog-grid {
   display: grid;
   grid-gap: 30px;
   grid-template-columns: repeat(2, auto);
-  padding: 20px 70px;
+  padding: 20px 50px;
 }
 
 .footer {

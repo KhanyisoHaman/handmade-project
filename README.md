@@ -64,7 +64,10 @@ Technologies and Tools Used:
 -Create shop Page
 -Add header and footer in shop page
 -Add h1 and images placeholders
--
+
+2019-03-27
+-Create back top button
+
 
 ## Contributors
 

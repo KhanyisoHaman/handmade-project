@@ -157,7 +157,8 @@
 
   z-index: 2;
   position: absolute;
-  transform: translate(700px, 10px);
+  transform: translate(1240%, 130%);
+// transform: translate(737px, 25px);
 
   p {
     font-family: 'Source Sans Pro', sans-serif;
@@ -273,7 +274,7 @@
     height: 552px;
     opacity: 0.9;
     background-color: $mid-grey;
-    background-image: url(../images/close-up-diy-measuring-tape-1573830.jpg);
+    background: linear-gradient(#c4ac9ccc,#5555559c), url(../images/close-up-diy-measuring-tape-1573830.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -471,10 +472,10 @@
     background-size: contain;
 }
 
-// .toiletrly {
-//     background-image: url(../images/diy/toiletrly.png);
-//     background-size: contain;
-// }
+.toiletrly {
+    background-image: url(../images/diy/toiletrly.png);
+    background-size: contain;
+}
 
 // End: Footer
 

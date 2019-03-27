@@ -8,8 +8,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Link My Css Style Sheets -->
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
+    <!-- Link My JQUERY -->
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
     <!-- Link My JS Script Sheet -->
-    <script src="js/main.js"></script>
     <!-- Link Font Awesome Icons -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <!-- Link My Google Fonts -->
@@ -89,13 +93,13 @@
 
         <a class="button" href="lookbook.html">Lookbook</a>
 
-        <a href="#"><i class="fas fa-chevron-down arrow-down"></i></a>
+        <a href="#featured"><i class="fas fa-chevron-down arrow-down"></i></a>
 
         </header>
         <!-- End: Header -->
 
         <!-- Start: Featured Products -->
-        <section class="featured">
+        <section class="featured" id="featured">
             <h1 class="featured-h1">Featured Products</h1>
             <hr class="h1-line">
 
@@ -120,7 +124,8 @@
                 <h3 class="h3-featured second">R600</h3> -->
 
             </article>
-
+            <!-- Back To Top Button  -->
+            <a id="button" class="back-top-btn" href="#"><i class="fas fa-chevron-up"></i></a>
         </section>
         <!-- End: Featured Products -->
 
@@ -145,7 +150,7 @@
             <article class="hand-craft-sub">
                 <h1 class="h1-hand-craft">Hand Craft Products</h1>
 
-                <p class="p-hand-craft">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum impedit aspernatur facere doloremque excepturi. Nam suscipit ipsa aliquam magnam. Soluta quas laboriosam amet cupiditate illum explicabo quae minima quis! Aut.</p>
+                <p class="p-hand-craft">We all have that tech savvy friend with their wireless headphones, head-mounted GoPro camera, and camera slung on their shoulder. They're going live, twitching, and tweeting, and could use some organization. What about a beautiful camera bag with those extra pockets? How about a handmade leather headphone holder? Our savvy sellers have the ultimate gift.</p>
 
                 <a class="view" href="#">View More</a>
             </article>
@@ -235,5 +240,6 @@
 
     </div>
 
+    <script src="js/main.js"></script>
 </body>
 </html>
