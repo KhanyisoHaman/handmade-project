@@ -996,7 +996,6 @@ textarea {
   padding: 0;
 }
 .cart-grid-items .fa-heart {
-  float: right;
   font-size: 20px;
   font-weight: normal;
   font-style: normal;
@@ -1004,6 +1003,30 @@ textarea {
   line-height: 2.4;
   letter-spacing: normal;
   color: #999999;
+  position: absolute;
+  right: 16%;
+  transform: translate(0%, -108%);
+}
+.cart-grid-items .fa-heart:hover {
+  cursor: pointer;
+}
+.cart-grid-items .fa-heart:focus {
+  color: red;
+}
+.cart-grid-items .fa-heart:focus-within {
+  color: red;
+}
+.cart-grid-items .scratch-text {
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.67;
+  letter-spacing: normal;
+  text-align: left;
+  margin-left: 20px;
+  text-decoration: line-through;
+  color: #cccccc;
 }
 
 .fab {

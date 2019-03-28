@@ -1083,17 +1083,31 @@
         padding: 0;
     }
 
+        
+
     .fa-heart {
-        float: right;
         font-size: 20px;
         font-weight: normal;
         font-style: normal;
         font-stretch: normal;
         line-height: 2.4;
         letter-spacing: normal;
-        // text-align: center;
         color: #999999;
-        // transform: translate(33em,-213%);
+        position: absolute;
+        right: 16%;
+        transform: translate(0%,-108%);
+    }
+
+    .fa-heart:hover {
+        cursor: pointer;
+    }
+
+    .fa-heart:focus {
+        color: red;
+    }
+
+    .fa-heart:focus-within {
+        color: red;
     }
 
     .scratch-text {
