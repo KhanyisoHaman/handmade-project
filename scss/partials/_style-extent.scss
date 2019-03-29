@@ -131,6 +131,14 @@
     margin-top: 21vh;
 }
 
+
+.arrow-down::before {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    transform: translate(-13vh, 21vh);
+}
+
 // End: Header ---------------------------------------
 
 // Start: Featured Products
@@ -740,6 +748,14 @@
   text-align: center;
 }
 
+.google-maps {
+    width: 550px;
+    height: 300px;
+    transform: translate(127%);
+    grid-column: 2;
+    border-style: solid;
+}
+
 .location{
     width: 32px;
     height: 35px;
@@ -873,6 +889,20 @@
         text-align: left;
     }
     
+}
+
+.main-grid-text {
+
+    a {
+        font-size: 15px;
+        font-weight: 600;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.67;
+        letter-spacing: normal;
+        text-align: left;
+        color: #706259;
+    }
 }
 
 
@@ -1023,6 +1053,11 @@
     width: 300px;
     height: 300px;
     background-color: $mid-grey;
+
+    img {
+    width: 300px;
+    height: 300px;
+    }
 }
 
 .cart-grid-items {
@@ -1077,10 +1112,11 @@
         border: 1px solid #ac907f;
         padding: 10px 25px;
         margin-top: 15px;
+        transition: font-size 1s;
     }
 
     a:hover {
-        text-decoration: underline;
+        font-weight: bolder;
         cursor: pointer;
     }
 
@@ -1100,6 +1136,7 @@
         color: #999999;
         // transform: translate(33em,-213%);
     }
+
 }
 
 
