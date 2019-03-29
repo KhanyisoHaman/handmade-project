@@ -7,19 +7,156 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Link My Css -->
         <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
-        <!-- Link My JQUERY -->
-        <script
-        src="https://code.jquery.com/jquery-3.3.1.min.js"
-        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous"></script>
-        <!-- Link My Js -->
-        <script src="js/main.js"></script>
+
         <!-- Link Font Awesome Icons -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
         <!-- Link Linearicons -->
         <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
         <!-- Link My Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Dosis|Source+Sans+Pro" rel="stylesheet">
+
+        <!-- Internal Styling -->
+        <style>
+      
+      .initial-grid:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+      
+      /* The lightbox (background) */
+      .lightbox {
+        display: none;
+        position: fixed;
+        z-index: 2000;
+        padding-top: 40px;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.78);
+      }
+      
+      /* lightbox Content */
+      .lightbox-content {
+        position: relative;
+        margin: auto;
+        padding: 0;
+        width: 40%;
+        height: 90%;
+        transform: translate(-55%);
+      }
+
+      .lookbook-row {
+        display: grid;
+        grid-gap: 5px;
+        grid-template-columns: repeat(6,1fr);
+        grid-template-rows: repeat(3,1fr);
+        z-index: 4000;
+        width: 100%;
+        position: absolute;
+        transform: translate(111%,-112%);
+      }
+      
+      /* The Close Button */
+      .close {
+        color: white;
+        position: absolute;
+        top: 10px;
+        right: 25px;
+        font-size: 35px;
+        font-weight: bold;
+      }
+      
+      .close:hover,
+      .close:focus {
+        color: #999;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      
+      .mySlides {
+        display: none;
+      }
+      
+      .cursor {
+        cursor: pointer;
+      }
+      
+      /* Next & previous buttons */
+      .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -50px;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        -webkit-user-select: none;
+      }
+      
+      /* Position the "next button" to the right */
+      .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+      }
+      
+      /* On hover, add a black background color with a little bit see-through */
+      .prev:hover, .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+      }
+      
+      /* Number text (1/3 etc) */
+      .numbertext {
+        color: #cccccc;
+        font-family: 'Dosis', sans-serif;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        box-shadow: 2px 2px 2px black;
+      }
+      
+      img {
+        margin-bottom: -4px;
+        width: 100%;
+      }
+      
+      .caption-holder {
+        text-align: center;
+        background-color: #9E9E9E;
+        padding: 2px 16px;
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-family: 'Dosis', sans-serif;
+      }
+      
+      .scenario {
+        opacity: 0.6;
+      }
+      
+      .active, .scenario:hover {
+        opacity: 1;
+      }
+      
+      img.shadow {
+        transition: 0.3s;
+      }
+
+      .shoe-holder {
+        background-color: #ffffff05;
+      }
+      
+    </style>
 </head>
 <body>
     
@@ -91,8 +228,8 @@
 
             <!-- Hero  -->
             <article class="hero-about">
-                <h1 class="about-us">Contact Us</h1>
-                <h3 class="h3-about-hero"><a href="#"><span class="home-tag">Home</span></a>  / <a href="#">Contact Us</a></h3>
+                <h1 class="about-us">Lookbook</h1>
+                <h3 class="h3-about-hero"><a href="#"><span class="home-tag">Home</span></a>  / <a href="#">Lookbook</a></h3>
             </article>
             <!-- Hero -->
 
@@ -101,38 +238,204 @@
 
     <a id="button" class="back-top-btn" href="#"><i class="fas fa-chevron-up"></i></a>
 
+    <h2 class="lookbook-gallery">LookBook Gallery</h2>
+    <hr class="h1-line">
+
     <!-- MAIN GRID STARTS HERE -->
-    <main class="lookbook-grid">
-        <article class="lookbook-items baskets"><img src="images/diy/basketwhitewall.jpg" alt=""></article>
+    <section class="lookbook-grid initial-grid">
+        <article class="lookbook-items baskets column">
+            <img onclick="openlightbox();currentSlide(1)" src="images/diy/stationery.png" alt="Stationery Holder" class="shadow cursor">
+        </article>
 
-        <article class="lookbook-items jewlery"><img src="images/diy/jewelry holder.png" alt=""></article>
+        <article class="lookbook-items jewlery column">
+            <img onclick="openlightbox();currentSlide(2)" src="images/diy/jewelry-holder.png" alt="" class="shadow cursor">
+        </article>
 
-        <article class="lookbook-items book-holder"><img src="images/diy/book holder.png" alt=""></article>
+        <article class="lookbook-items book-holder column">
+            <img onclick="openlightbox();currentSlide(3)" src="images/diy/book-holder.png" alt="" class="shadow cursor">
+        </article>
 
-        <article class="lookbook-items brushes"><img src="images/diy/brushes.png" alt=""></article>
+        <article class="lookbook-items brushes column">
+            <img onclick="openlightbox();currentSlide(4)" src="images/diy/brushes.png" alt="" class="shadow cursor">
+        </article>
 
-        <article class="lookbook-items file"><img src="images/diy/file_organisers.jpg" alt=""></article>
+        <article class="lookbook-items file column">
+            <img onclick="openlightbox();currentSlide(5)" src="images/diy/stationery-holder.png" alt="Stationery Holder" class="shadow cursor">
+        </article>
 
-        <article class="lookbook-items cutlery"><img src="images/diy/cutlery holder.png" alt=""></article>
+        <article class="lookbook-items cutlery-item column">
+            <img onclick="openlightbox();currentSlide(6)" src="images/diy/cutlery-holder.png" alt="" class="shadow cursor">
+        </article>
 
-        <article class="lookbook-items jean"><img src="images/diy/jean-bag.png" alt=""></article>
+        <article class="lookbook-items jean column">
+            <img onclick="openlightbox();currentSlide(7)" src="images/diy/jean-bag.png" alt="" class="shadow cursor">
+        </article>
 
-        <article class="lookbook-items leaf"><img src="images/diy/leaf-frame.png" alt=""></article>
+        <article class="lookbook-items toiletrly column">
+            <img onclick="openlightbox();currentSlide(8)" src="images/diy/toiletrly.png" alt="" class="shadow cursor">
+        </article>
 
-        <article class="lookbook-items mag-toilet"><img src="images/diy/mag and toilet paper.png" alt=""></article>
+        <article class="lookbook-items mag-toilet column">
+            <img onclick="openlightbox();currentSlide(9)" src="images/diy/mag-and-toilet-paper.png" alt="" class="shadow cursor">
+        </article>
 
-        <article class="lookbook-items makeup"><img src="images/diy/makeup spinner.png" alt=""></article>
+        <article class="lookbook-items makeup column">
+            <img onclick="openlightbox();currentSlide(10)" src="images/diy/makeup-spinner.png" alt="" class="shadow cursor">
+        </article>
 
-        <article class="lookbook-items pencil"><img src="images/diy/pencil makeup holder.png" alt=""></article>
+        <article class="lookbook-items pencil column">
+            <img onclick="openlightbox();currentSlide(11)" src="images/diy/pencil-makeup-holder.png" alt="" class="shadow cursor">
+        </article>
 
-        <article class="lookbook-items frame"><img src="images/diy/picture-frame.png" alt=""></article>
+        <article class="lookbook-items frame column">
+            <img onclick="openlightbox();currentSlide(12)" src="images/diy/cleaning-agents.png" alt="" class="shadow cursor">
+        </article>
 
 
-        <article class="lookbook-items shoe-holder"><img src="images/diy/shoe holder.png" alt=""></article>
+        <article class="lookbook-items shoe-holder column">
+            <img onclick="openlightbox();currentSlide(13)" src="images/diy/shoe holder.png" alt="" class="shadow cursor">
+        </article>
 
-        <article class="lookbook-items toiletrly"><img src="images/diy/toiletrly.png" alt=""></article>
-    </main>
+    </section>
     <!-- MAIN GRID ENDS HERE -->
+
+    <!-- My Lightbox Starts Here -->
+    <section class="lightbox" id="mylightbox">
+
+        <span class="close cursor" onclick="closelightbox()">&times;</span>
+
+        <div class="lightbox-content">
+            <article class="mySlides">
+            <div class="numbertext">1 / 13</div>
+            <img src="images/diy/stationery.png" alt="Stationery Holder">
+            </article>
+
+            <article class="mySlides">
+                <div class="numbertext">2 / 13</div>
+                <img src="images/diy/jewelry-holder.png" alt="">
+            </article>
+
+            <article class="mySlides">
+                <div class="numbertext">3 / 13</div>
+                <img src="images/diy/book-holder.png" alt="">
+            </article>
+
+            <article class="mySlides">
+                <div class="numbertext">4 / 13</div>
+                <img src="images/diy/brushes.png" alt="">
+            </article>
+
+            <article class="mySlides">
+                <div class="numbertext">5 / 13</div>
+                <img src="images/diy/stationery-holder.png" alt="Stationery Holder">
+            </article>
+
+            <article class="mySlides">
+                <div class="numbertext">6 / 13</div>
+                <img src="images/diy/cutlery-holder.png" alt="">
+            </article>
+
+            <article class="mySlides">
+                <div class="numbertext">7 / 13</div>
+                <img src="images/diy/jean-bag.png" alt="">
+            </article>
+
+            <article class="mySlides">
+                <div class="numbertext">8 / 13</div>
+                <img src="images/diy/toiletrly.png" alt="">
+            </article>
+
+            <article class="mySlides">
+                <div class="numbertext">9 / 13</div>
+                <img src="images/diy/mag-and-toilet-paper.png" alt="">
+            </article>
+
+            <article class="mySlides">
+                <div class="numbertext">10 / 13</div>
+                <img src="images/diy/makeup-spinner.png" alt="">
+            </article>
+
+            <article class="mySlides">
+                <div class="numbertext">11 / 13</div>
+                <img src="images/diy/pencil-makeup-holder.png" alt="">
+            </article>
+
+            <article class="mySlides">
+                <div class="numbertext">12 / 13</div>
+                <img src="images/diy/cleaning-agents.png" alt="">
+            </article>
+
+            <article class="mySlides">
+                <div class="numbertext">13 / 13</div>
+                <img src="images/diy/shoe holder.png" alt="">
+            </article>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+            <article class="caption-holder">
+                <p id="caption"></p>
+            </article>
+
+            <section class="lookbook-row initial-grid">
+                    <article class="lookbook-items scenario cursor baskets column">
+                        <img onclick="currentSlide(1)" src="images/diy/stationery.png" alt="Stationery Holder" class="shadow cursor">
+                    </article>
+            
+                    <article class="lookbook-items scenario cursor jewlery column">
+                        <img onclick="currentSlide(2)" src="images/diy/jewelry-holder.png" alt="" class="shadow cursor">
+                    </article>
+            
+                    <article class="lookbook-items scenario cursor book-holder column">
+                        <img onclick="currentSlide(3)" src="images/diy/book-holder.png" alt="" class="shadow cursor">
+                    </article>
+            
+                    <article class="lookbook-items scenario cursor brushes column">
+                        <img onclick="currentSlide(4)" src="images/diy/brushes.png" alt="" class="shadow cursor">
+                    </article>
+            
+                    <article class="lookbook-items scenario cursor file column">
+                        <img onclick="currentSlide(5)" src="images/diy/stationery-holder.png" alt="Stationery Holder" class="shadow cursor">
+                    </article>
+            
+                    <article class="lookbook-items scenario cursor cutlery-item column">
+                        <img onclick="currentSlide(6)" src="images/diy/cutlery-holder.png" alt="" class="shadow cursor">
+                    </article>
+            
+                    <article class="lookbook-items scenario cursor jean column">
+                        <img onclick="currentSlide(7)" src="images/diy/jean-bag.png" alt="" class="shadow cursor">
+                    </article>
+            
+                    <article class="lookbook-items scenario cursor toiletrly column">
+                        <img onclick="currentSlide(8)" src="images/diy/toiletrly.png" alt="" class="shadow cursor">
+                    </article>
+            
+                    <article class="lookbook-items scenario cursor mag-toilet column">
+                        <img onclick="currentSlide(9)" src="images/diy/mag-and-toilet-paper.png" alt="" class="shadow cursor">
+                    </article>
+            
+                    <article class="lookbook-items scenario cursor makeup column">
+                        <img onclick="currentSlide(10)" src="images/diy/makeup-spinner.png" alt="" class="shadow cursor">
+                    </article>
+            
+                    <article class="lookbook-items scenario cursor pencil column">
+                        <img onclick="currentSlide(11)" src="images/diy/pencil-makeup-holder.png" alt="" class="shadow cursor">
+                    </article>
+            
+                    <article class="lookbook-items scenario cursor frame column">
+                        <img onclick="currentSlide(12)" src="images/diy/cleaning-agents.png" alt="" class="shadow cursor">
+                    </article>
+            
+            
+                    <article class="lookbook-items scenario cursor shoe-holder column">
+                        <img onclick="currentSlide(13)" src="images/diy/shoe holder.png" alt="" class="shadow cursor">
+                    </article>
+            
+            </section>
+        </div>
+
+    </section>
+    <!-- My Lightbox End Here -->
 
     <!-- Start: Footer -->
     <footer>
@@ -194,5 +497,8 @@
     </footer>
     <!-- End: Footer -->
 
+
+    <!-- Link My Js -->
+    <script src="js/main.js"></script>
 </body>
 </html>

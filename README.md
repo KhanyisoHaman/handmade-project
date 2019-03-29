@@ -68,6 +68,9 @@ Technologies and Tools Used:
 2019-03-27
 -Create back top button
 
+2019-03-29
+-Complete Lookbook's JavaScript
+
 
 ## Contributors
 
