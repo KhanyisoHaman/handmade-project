@@ -56,3 +56,10 @@ function showSlides(n) {
 
 
 // Lookbook Close
+
+
+// Hamburger
+
+function toggleNavigation() {
+    document.getElementById("toggleNav").classList.toggle('active');
+}

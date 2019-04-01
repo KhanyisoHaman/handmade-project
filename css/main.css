@@ -124,6 +124,15 @@ textarea {
 .navigation-bottom a {
   color: white;
 }
+.navigation-bottom #toggleNav {
+  z-index: 3;
+}
+
+.toggle {
+  color: #ffffff;
+  font-size: 20px;
+  display: none;
+}
 
 .navigation-bottom a:hover {
   text-decoration: underline;
@@ -178,6 +187,7 @@ textarea {
   height: 704px;
   background-color: #f5f5f5;
   padding: 30px;
+  padding-left: 0px;
 }
 
 .new {
@@ -1153,6 +1163,7 @@ textarea {
   .navigation-bottom ul {
     margin: 0;
     padding: 0;
+    text-align: right;
   }
 
   .home {
@@ -1167,13 +1178,42 @@ textarea {
     padding: 0 10px;
   }
 
+  .toggle {
+    display: initial;
+  }
+
+  #toggleNav {
+    display: none;
+  }
+
+  #toggleNav.active {
+    display: initial;
+    z-index: 3;
+  }
+  #toggleNav.active li {
+    text-align: center;
+  }
+
+  .home {
+    padding-left: 0;
+  }
+
+  .lookbook {
+    padding-right: 0;
+  }
+
+  .middle-nav {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
   .button {
     margin-left: 57vh;
     margin-top: 8vh;
   }
 
   .arrow-down::before {
-    transform: translate(-15vh, 5vh);
+    transform: translate(-15vh, 14vh);
   }
 
   .featured-grids {
@@ -1208,7 +1248,7 @@ textarea {
     height: 25px;
     border-radius: 3.25px;
     position: absolute;
-    transform: translate(541px, 10px);
+    transform: translate(604px, 20px);
   }
 
   .featured {
@@ -1314,8 +1354,9 @@ textarea {
 
   .icons {
     position: absolute;
-    transform: translate(0vh, -11vh);
+    transform: translate(0vh, -9vh);
     width: 150px;
+    font-size: 10px;
   }
 
   .icons a {
@@ -1325,27 +1366,28 @@ textarea {
   .shipping-text {
     text-align: center;
     display: block;
-    letter-spacing: 2.4px;
+    letter-spacing: 0.4px;
     width: 250px;
     margin: 0;
   }
 
   .navigation-bottom li {
-    padding: 10px;
-    display: block;
-    text-align: left;
+    padding: 5px;
+    display: inline;
   }
 
   .navigation-bottom ul {
     padding: 0;
   }
-
-  .navigation-bottom {
-    background-color: rgba(0, 0, 0, 0.5);
+  .navigation-bottom ul a {
+    font-size: 10px;
   }
 
   .logo {
-    text-align: center !important;
+    font-size: 20px !important;
+    letter-spacing: 5px;
+    position: absolute;
+    transform: translate(-27%, 100%);
   }
 
   .lookbook {
@@ -1354,6 +1396,76 @@ textarea {
 
   .home {
     padding-left: 10px !important;
+  }
+
+  .toggle {
+    display: initial;
+    position: absolute;
+    z-index: 40;
+    transform: translate(-60%, 3em);
+    padding: 10px 14px;
+    border: 2px solid white;
+    border-radius: 50%;
+  }
+
+  #toggleNav {
+    display: none;
+  }
+
+  #toggleNav.active {
+    display: initial;
+    z-index: 3;
+  }
+  #toggleNav.active li {
+    text-align: center;
+  }
+
+  .middle-nav {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .shopping-cart {
+    padding: 5px;
+    position: absolute;
+    transform: translate(-2.8em, 12%);
+  }
+
+  .search {
+    position: absolute;
+    transform: translate(123%, 3em);
+  }
+
+  .hero-h1 {
+    font-size: 35px;
+    letter-spacing: 2px;
+    transform: translate(0, 31%);
+  }
+
+  .hero-p {
+    font-size: 12px;
+    padding: 0 25px;
+    margin-bottom: 8vh;
+    transform: translate(0, 31%);
+  }
+
+  .button {
+    letter-spacing: 2px;
+    padding: 8px 10px;
+    font-size: 10px;
+    margin-left: 23vh;
+    margin-top: 0;
+  }
+
+  .arrow-down::before {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    transform: translate(-12vh, 7vh);
+  }
+
+  .featured-h1 {
+    font-size: 26px;
   }
 
   .featured-grids {
@@ -1379,6 +1491,11 @@ textarea {
     grid-gap: 30px;
     grid-template-columns: repeat(1, auto);
     padding: 20px 70px;
+  }
+
+  .cgrids-items {
+    width: 170px;
+    height: 160px;
   }
 
   .blog-grid {

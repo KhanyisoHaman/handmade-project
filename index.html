@@ -18,6 +18,9 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <!-- Link My Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Dosis|Source+Sans+Pro" rel="stylesheet">
+
+    <!-- Link My Favicon -->
+    <link rel="shortcut icon" href="images/icons/nb.png" type="image/x-icon">
 </head>
 <body>
     
@@ -61,26 +64,29 @@
         <!-- Second(Bottom) Nav Bar2 -->
         <nav class="navigation-bottom">
             <ul>
+               <article id="toggleNav">
+                    <li>
+                        <a class="search" href="#"><i class="fas fa-search"></i></a>
+                    </li>
 
-                <li>
-                    <a class="search" href="#"><i class="fas fa-search"></i></a>
-                </li>
+                    <article class="middle-nav">
+                        <li class="home"><a href="#">Home</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="about.html">About</a></li>
+        
+                        <li class="logo"><a class="logo" href="#">NATEB</a></li>
+        
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li> 
+                        <li class="lookbook"><a href="lookbook.html">Lookbook</a></li>
+                    </article>
 
-                <article class="middle-nav">
-                    <li class="home"><a href="#">Home</a></li>
-                    <li><a href="shop.html">Shop</a></li>
-                    <li><a href="about.html">About</a></li>
-    
-                    <li class="logo"><a class="logo" href="#">NATEB</a></li>
-    
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="contact.html">Contact</a></li> 
-                    <li class="lookbook"><a href="lookbook.html">Lookbook</a></li>
-                </article>
+                    <li class="shopping-cart" >
+                        <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                    </li>
+               </article>
 
-                <li class="shopping-cart" >
-                    <a href="#"><i class="fas fa-shopping-cart"></i></a>
-                </li>
+                <span class="toggle" onclick="toggleNavigation()"><i class="fas fa-bars"></i></span>
             </ul>
         </nav>
         <!-- The End: Nav Bar2 -->
