@@ -418,12 +418,40 @@
 
 // Start: Our Blog
 
+.blog {
+    height: 100%;
+}
+
 .blog-grid {
     display: grid;
     grid-gap: 30px;
-    grid-template-columns:repeat(1,auto);
+    grid-template-columns: repeat(1, auto);
+    padding: 20px 30px;
+}
 
-    padding: 20px 70px;
+.blog-items {
+    width: 170px;
+    height: 160px;
+}
+
+.p-blog {
+    width: 100%;
+    font-size: 15px;
+}
+
+.hand-craft-sub {
+    padding: 10px 40px;
+    width: 75%;
+}
+
+.h1-hand-craft {
+    font-size: 35px;
+}
+
+.view {
+    padding: 10px 20px;
+    font-size: 15px;
+    transform: translate(11vh, 7vh);
 }
 // End: Our Blog
 
@@ -432,15 +460,31 @@
 .footer {
     display: grid;
     grid-gap: 20px;
-    grid-template-columns: repeat(2, 1fr);
-
+    grid-template-columns: repeat(1, 1fr);
     padding: 30px 38px;
+
+    height: 100%;
+}
+
+.h1-footer {
+    font-size: 25px;
+    letter-spacing: 4px;
+    margin: 8px;
 }
 
 .footer-grid {
     display: grid;
     grid-gap: 15px;
     grid-template-columns: repeat(2,auto);
+}
+
+.cool-padding a {
+    width: 100%;
+}
+
+.footer-text {
+    font-size: 10px;
+    padding: 10px 0;
 }
 
 // End: Footer
